@@ -14,20 +14,23 @@ Boolean data type has two possible truth values to represent logic.<br>
 ```java
 import io.github.javaf.*;
 
-Bit.count(7);
-// 3 (111 => 3)
+Boolean.parse("inactive");
+// false
 
-Bit.parity(8, 2);
-// 2 (10,00 => 10)
+Boolean.parse("not off");
+// true
 
-Bit.swap(6, 1, 0);
-// 5 (110 => 101)
+Boolean.parse("truthy");
+// true
 
-Bit.reverse(0xFFFF0000);
-// 65535 (0x0000FFFF)
+Boolean.xor(true, true);
+// false
 
-Bit.signExtend(15, 4);
-// -1
+Boolean.imp(true, false);
+// false
+
+Boolean.eqv(false, false);
+// true
 ```
 
 <br>
@@ -36,37 +39,19 @@ Bit.signExtend(15, 4);
 
 ## Index
 
-| Method       | Action                                  |
-| ------------ | --------------------------------------- |
-| [get]        | Get a bit.                              |
-| [set]        | Set a bit.                              |
-| [toggle]     | Toggle a bit.                           |
-| [swap]       | Swap bit sequences.                     |
-| [scan]       | Get index of first set bit from LSB.    |
-| [count]      | Count bits set.                         |
-| [parity]     | Get n-bit parity.                       |
-| [rotate]     | Rotate bits.                            |
-| [reverse]    | Reverse all bits.                       |
-| [merge]      | Merge bits as per mask.                 |
-| [interleave] | Interleave bits of two int16s.          |
-| [signExtend] | Sign extend variable bit-width integer. |
+| Method  | Action                                    |
+| ------- | ----------------------------------------- |
+| [parse] | Convert string to boolean.                |
+| [xor]   | Get exclusive-or of 2 boolean values.     |
+| [eqv]   | Check if antecedent ⇔ consequent (x ⇔ y). |
+| [imp]   | Check if antecedent ⇒ consequent (x ⇒ y). |
 
-[get]: https://github.com/javaf/extra-boolean/wiki/get
-[set]: https://github.com/javaf/extra-boolean/wiki/set
-[setAs]: https://github.com/javaf/extra-boolean/wiki/setAs
-[swap]: https://github.com/javaf/extra-boolean/wiki/swap
-[scan]: https://github.com/javaf/extra-boolean/wiki/scan
-[scanReverse]: https://github.com/javaf/extra-boolean/wiki/scanReverse
-[count]: https://github.com/javaf/extra-boolean/wiki/count
-[parity]: https://github.com/javaf/extra-boolean/wiki/parity
-[reverse]: https://github.com/javaf/extra-boolean/wiki/reverse
-[merge]: https://github.com/javaf/extra-boolean/wiki/merge
-[interleave]: https://github.com/javaf/extra-boolean/wiki/interleave
-[signExtend]: https://github.com/javaf/extra-boolean/wiki/signExtend
-[toggle]: https://github.com/javaf/extra-boolean/wiki/toggle
-[rotate]: https://github.com/javaf/extra-boolean/wiki/rotate
+[parse]: https://github.com/javaf/extra-boolean/wiki/parse
+[xor]: https://github.com/javaf/extra-boolean/wiki/xor
+[eqv]: https://github.com/javaf/extra-boolean/wiki/eqv
+[imp]: https://github.com/javaf/extra-boolean/wiki/imp
 
 <br>
 <br>
 
-[![](https://img.youtube.com/vi/r3QQ6dm64xg/maxresdefault.jpg)](https://www.youtube.com/watch?v=r3QQ6dm64xg)
+[![](https://img.youtube.com/vi/6mMK6iSZsAs/maxresdefault.jpg)](https://www.youtube.com/watch?v=6mMK6iSZsAs)
