@@ -1,22 +1,65 @@
 package io.github.javaf;
-import java.io.*;
+import java.util.regex.*;
+
+
 
 /**
- * A "Hello, World!" program generally is a computer program that outputs
- * or displays the message "Hello, World!".
+ * Boolean data type has two possible truth values to represent logic.
  */
-public class Boolean {
+public final class Boolean {
+
+  private static final Pattern RE_FAL =
+    Pattern.compile("(negati|never|refus|wrong|fal|off)|\\b(f|n|0)\\b", Pattern.CASE_INSENSITIVE);
+
+  private static final Pattern RE_NEG =
+    Pattern.compile("\\b(nay|nah|no|dis|un|in)", Pattern.CASE_INSENSITIVE);
+
+
 
   /**
-   * Here is a puzzle for you!
-   * @param args command-line arguments
-   * @throws IOException on exit
+   * Convert string to boolean.
+   * @param s a string
+   * @return boolean
    */
-  public static void main(String[] args) throws IOException {
-    BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-    System.out.println("What clothing does a house wear?");
-    String ans = in.readLine();
-    if (ans.equalsIgnoreCase("address")) System.out.println("Got it!");
-    else System.out.println("It's Address!");
+  public static boolean parse(String s) {
+    boolean fal = RE_FAL.matcher(s).find();
+    boolean neg = RE_NEG.matcher(s).results().count() % 2 == 1;
+    return !(fal ^ neg);
+  }
+
+
+
+  /**
+   * Get exclusive-or of 2 boolean values.
+   * @param x first
+   * @param y second
+   * @return boolean
+   */
+  public static boolean xor(boolean x, boolean y) {
+    return x != y;
+  }
+
+
+
+  /**
+   * Check if antecedent ⇔ consequent (x ⇔ y).
+   * @param x antecedent
+   * @param y consequent
+   * @return boolean
+   */
+  public static boolean eqv(boolean x, boolean y) {
+    return (x && y) || (!x && !y);
+  }
+
+
+
+  /**
+   * Check if antecedent ⇒ consequent (x ⇒ y).
+   * @param x antecedent
+   * @param y consequent
+   * @return boolean
+   */
+  public static boolean imp(boolean x, boolean y) {
+    return !x || y;
   }
 }
