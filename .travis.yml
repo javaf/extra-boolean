@@ -9,16 +9,8 @@ cache:
 
 install:
 - git clone https://${GITHUB_TOKEN}@github.com/javaf/deploy "$HOME/deploy"
-- cp "$HOME/deploy/settings.xml" "$HOME/.m2/settings.xml"
-- gpg --import "$HOME/deploy/private.key"
-- gpg --import "$HOME/deploy/public.key"
-- cp "$HOME/deploy/.ssh"/* "$HOME/.ssh/"
-- chmod 400 "$HOME/.ssh/id_rsa"
-# - chmod 777 "$HOME/deploy/"*.sh
-# - bash "$HOME/deploy/install.sh"
+- chmod 777 "$HOME/deploy/"*.sh
+- bash "$HOME/deploy/install.sh"
 
 script:
-- export MAVEN_OPTS="-Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn"
-- mvn $MAVEN_OPTS -B deploy
-- mvn $MAVEN_OPTS -B deploy -Dossrh || true
-# - bash "$HOME/deploy/script.sh"
+- bash "$HOME/deploy/script.sh"
