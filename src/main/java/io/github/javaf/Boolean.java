@@ -8,7 +8,7 @@ import java.util.regex.*;
  * Boolean data type has two possible truth values to represent logic.<br>
  * 📦 <a href="https://search.maven.org/artifact/io.github.javaf/extra-boolean">Central</a>,
  * 📜 <a href="https://repo1.maven.org/maven2/io/github/javaf/extra-boolean/">Releases</a>,
- * 😺 <a href="https://github.com/javaf/hello-world/packages/575247">GitHub</a>,
+ * 😺 <a href="https://github.com/javaf/hello-world/packages/579834">GitHub</a>,
  * 🐸 <a href="https://bintray.com/beta/#/bintray/jcenter/io.github.javaf:extra-boolean">Bintray</a>,
  * 🦚 <a href="https://mvnrepository.com/artifact/io.github.javaf/extra-boolean">MvnRepository</a>,
  * 📰 <a href="https://javaf.github.io/extra-boolean/">Javadoc</a>,

@@ -1,7 +1,7 @@
 Boolean data type has two possible truth values to represent logic.<br>
 :package: [Central](https://search.maven.org/artifact/io.github.javaf/extra-boolean),
 :scroll: [Releases](https://repo1.maven.org/maven2/io/github/javaf/extra-boolean/),
-:octocat: [GitHub](https://github.com/javaf/hello-world/packages/575247),
+:octocat: [GitHub](https://github.com/javaf/hello-world/packages/579834),
 :frog: [Bintray](https://bintray.com/beta/#/bintray/jcenter/io.github.javaf:extra-boolean),
 :peacock: [MvnRepository](https://mvnrepository.com/artifact/io.github.javaf/extra-boolean),
 :newspaper: [Javadoc](https://javaf.github.io/extra-boolean/),
