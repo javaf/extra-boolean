@@ -21,7 +21,7 @@ public final class Boolean {
   /**
    * Convert string to boolean.
    * @param s a string
-   * @return boolean
+   * @return result
    */
   public static boolean parse(String s) {
     boolean f = RFALSE.matcher(s).find();
@@ -36,7 +36,7 @@ public final class Boolean {
   /**
    * Check if value is false.
    * @param a a boolean
-   * @return
+   * @return result
    */
   public static boolean not(boolean a) {
     return !a;
@@ -47,7 +47,7 @@ public final class Boolean {
    * Check if antecedent ⇔ consequent (a ⇔ b).
    * @param a antecedent
    * @param b consequent
-   * @return
+   * @return result
    */
   public static boolean eq(boolean a, boolean b) {
     return xnor(a, b);
@@ -58,7 +58,7 @@ public final class Boolean {
    * Check if antecedent ⇒ consequent (a ⇒ b).
    * @param a antecedent
    * @param b consequent
-   * @return
+   * @return result
    */
   public static boolean imply(boolean a, boolean b) {
     return !a || b;
@@ -69,7 +69,7 @@ public final class Boolean {
    * Check if antecedent ⇏ consequent (a ⇏ b).
    * @param a antecedent
    * @param b consequent
-   * @return
+   * @return result
    */
   public static boolean nimply(boolean a, boolean b) {
     return !imply(a, b);
@@ -83,7 +83,7 @@ public final class Boolean {
    * Check if antecedent ⇔ consequent (a ⇔ b).
    * @param a antecedent
    * @param b consequent
-   * @return
+   * @return result
    */
   public static boolean eqv(boolean a, boolean b) {
     return eq(a, b);
@@ -94,7 +94,7 @@ public final class Boolean {
    * Check if antecedent ⇒ consequent (a ⇒ b).
    * @param a antecedent
    * @param b consequent
-   * @return
+   * @return result
    */
   public static boolean imp(boolean a, boolean b) {
     return imply(a, b);
@@ -106,7 +106,7 @@ public final class Boolean {
   // AND (VARIABLE)
   /**
    * Check if all values are true.
-   * @return
+   * @return result
    */
   public static boolean and() {
     return true;
@@ -116,7 +116,7 @@ public final class Boolean {
   /**
    * Check if all values are true.
    * @param a 1st boolean
-   * @return
+   * @return result
    */
   public static boolean and(boolean a) {
     return a;
@@ -127,7 +127,7 @@ public final class Boolean {
    * Check if all values are true.
    * @param a 1st boolean
    * @param b 2nd boolean
-   * @return
+   * @return result
    */
   public static boolean and(boolean a, boolean b) {
     return a && b;
@@ -139,7 +139,7 @@ public final class Boolean {
    * @param a 1st boolean
    * @param b 2nd boolean
    * @param c 3rd boolean
-   * @return
+   * @return result
    */
   public static boolean and(boolean a, boolean b, boolean c) {
     return a && b && c;
@@ -152,7 +152,7 @@ public final class Boolean {
    * @param b 2nd boolean
    * @param c 3rd boolean
    * @param d 4th boolean
-   * @return
+   * @return result
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d) {
     return a && b && c && d;
@@ -166,7 +166,7 @@ public final class Boolean {
    * @param c 3rd boolean
    * @param d 4th boolean
    * @param e 5th boolean
-   * @return
+   * @return result
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d, boolean e) {
     return a && b && c && d && e;
@@ -181,7 +181,7 @@ public final class Boolean {
    * @param d 4th boolean
    * @param e 5th boolean
    * @param f 6th boolean
-   * @return
+   * @return result
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
     return a && b && c && d && e && f;
@@ -197,7 +197,7 @@ public final class Boolean {
    * @param e 5th boolean
    * @param f 6th boolean
    * @param g 7th boolean
-   * @return
+   * @return result
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
     return a && b && c && d && e && f && g;
@@ -214,7 +214,7 @@ public final class Boolean {
    * @param f 6th boolean
    * @param g 7th boolean
    * @param h 8th boolean
-   * @return
+   * @return result
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
     return a && b && c && d && e && f && g && h;
@@ -226,7 +226,7 @@ public final class Boolean {
   // OR (VARIABLE)
   /**
    * Check if any value is true.
-   * @return
+   * @return result
    */
   public static boolean or() {
     return false;
@@ -236,7 +236,7 @@ public final class Boolean {
   /**
    * Check if any value is true.
    * @param a 1st boolean
-   * @return
+   * @return result
    */
   public static boolean or(boolean a) {
     return a;
@@ -247,7 +247,7 @@ public final class Boolean {
    * Check if any value is true.
    * @param a 1st boolean
    * @param b 2nd boolean
-   * @return
+   * @return result
    */
   public static boolean or(boolean a, boolean b) {
     return a || b;
@@ -259,7 +259,7 @@ public final class Boolean {
    * @param a 1st boolean
    * @param b 2nd boolean
    * @param c 3rd boolean
-   * @return
+   * @return result
    */
   public static boolean or(boolean a, boolean b, boolean c) {
     return a || b || c;
@@ -272,7 +272,7 @@ public final class Boolean {
    * @param b 2nd boolean
    * @param c 3rd boolean
    * @param d 4th boolean
-   * @return
+   * @return result
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d) {
     return a || b || c || d;
@@ -286,7 +286,7 @@ public final class Boolean {
    * @param c 3rd boolean
    * @param d 4th boolean
    * @param e 5th boolean
-   * @return
+   * @return result
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d, boolean e) {
     return a || b || c || d || e;
@@ -301,7 +301,7 @@ public final class Boolean {
    * @param d 4th boolean
    * @param e 5th boolean
    * @param f 6th boolean
-   * @return
+   * @return result
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
     return a || b || c || d || e || f;
@@ -317,7 +317,7 @@ public final class Boolean {
    * @param e 5th boolean
    * @param f 6th boolean
    * @param g 7th boolean
-   * @return
+   * @return result
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
     return a || b || c || d || e || f || g;
@@ -334,7 +334,7 @@ public final class Boolean {
    * @param f 6th boolean
    * @param g 7th boolean
    * @param h 8th boolean
-   * @return
+   * @return result
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
     return a || b || c || d || e || f || g || h;
@@ -346,7 +346,7 @@ public final class Boolean {
   // XOR (VARIABLE)
   /**
    * Check if odd no. of values are true.
-   * @return
+   * @return result
    */
   public static boolean xor() {
     return false;
@@ -356,7 +356,7 @@ public final class Boolean {
   /**
    * Check if odd no. of values are true.
    * @param a 1st boolean
-   * @return
+   * @return result
    */
   public static boolean xor(boolean a) {
     return a;
@@ -367,7 +367,7 @@ public final class Boolean {
    * Check if odd no. of values are true.
    * @param a 1st boolean
    * @param b 2nd boolean
-   * @return
+   * @return result
    */
   public static boolean xor(boolean a, boolean b) {
     return a ^ b;
@@ -379,7 +379,7 @@ public final class Boolean {
    * @param a 1st boolean
    * @param b 2nd boolean
    * @param c 3rd boolean
-   * @return
+   * @return result
    */
   public static boolean xor(boolean a, boolean b, boolean c) {
     return a ^ b ^ c;
@@ -392,7 +392,7 @@ public final class Boolean {
    * @param b 2nd boolean
    * @param c 3rd boolean
    * @param d 4th boolean
-   * @return
+   * @return result
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d) {
     return a ^ b ^ c ^ d;
@@ -406,7 +406,7 @@ public final class Boolean {
    * @param c 3rd boolean
    * @param d 4th boolean
    * @param e 5th boolean
-   * @return
+   * @return result
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d, boolean e) {
     return a ^ b ^ c ^ d ^ e;
@@ -421,7 +421,7 @@ public final class Boolean {
    * @param d 4th boolean
    * @param e 5th boolean
    * @param f 6th boolean
-   * @return
+   * @return result
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
     return a ^ b ^ c ^ d ^ e ^ f;
@@ -437,7 +437,7 @@ public final class Boolean {
    * @param e 5th boolean
    * @param f 6th boolean
    * @param g 7th boolean
-   * @return
+   * @return result
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
     return a ^ b ^ c ^ d ^ e ^ f ^ g;
@@ -454,7 +454,7 @@ public final class Boolean {
    * @param f 6th boolean
    * @param g 7th boolean
    * @param h 8th boolean
-   * @return
+   * @return result
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
     return a ^ b ^ c ^ d ^ e ^ f ^ g ^ h;
@@ -466,7 +466,7 @@ public final class Boolean {
   // COUNT (VARIABLE)
   /**
    * Count no. of true values.
-   * @return
+   * @return result
    */
   public static int count() {
     return 0;
@@ -476,7 +476,7 @@ public final class Boolean {
   /**
    * Count no. of true values.
    * @param a 1st boolean
-   * @return
+   * @return result
    */
   public static int count(boolean a) {
     return a? 1 : 0;
@@ -487,7 +487,7 @@ public final class Boolean {
    * Count no. of true values.
    * @param a 1st boolean
    * @param b 2nd boolean
-   * @return
+   * @return result
    */
   public static int count(boolean a, boolean b) {
     return count(a) + count(b);
@@ -499,7 +499,7 @@ public final class Boolean {
    * @param a 1st boolean
    * @param b 2nd boolean
    * @param c 3rd boolean
-   * @return
+   * @return result
    */
   public static int count(boolean a, boolean b, boolean c) {
     return count(a, b) + count(c);
@@ -512,7 +512,7 @@ public final class Boolean {
    * @param b 2nd boolean
    * @param c 3rd boolean
    * @param d 4th boolean
-   * @return
+   * @return result
    */
   public static int count(boolean a, boolean b, boolean c, boolean d) {
     return count(a, b) + count(c, d);
@@ -526,7 +526,7 @@ public final class Boolean {
    * @param c 3rd boolean
    * @param d 4th boolean
    * @param e 5th boolean
-   * @return
+   * @return result
    */
   public static int count(boolean a, boolean b, boolean c, boolean d, boolean e) {
     return count(a, b, c, d) + count(e);
@@ -541,7 +541,7 @@ public final class Boolean {
    * @param d 4th boolean
    * @param e 5th boolean
    * @param f 6th boolean
-   * @return
+   * @return result
    */
   public static int count(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
     return count(a, b, c, d) + count(e, f);
@@ -557,7 +557,7 @@ public final class Boolean {
    * @param e 5th boolean
    * @param f 6th boolean
    * @param g 7th boolean
-   * @return
+   * @return result
    */
   public static int count(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
     return count(a, b, c, d) + count(e, f, g);
@@ -574,7 +574,7 @@ public final class Boolean {
    * @param f 6th boolean
    * @param g 7th boolean
    * @param h 8th boolean
-   * @return
+   * @return result
    */
   public static int count(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
     return count(a, b, c, d) + count(e, f, g, h);
@@ -586,7 +586,7 @@ public final class Boolean {
   // NAND (VARIABLE)
   /**
    * Check if any value is false.
-   * @return
+   * @return result
    */
   public static boolean nand() {
     return !and();
@@ -596,7 +596,7 @@ public final class Boolean {
   /**
    * Check if any value is false.
    * @param a 1st boolean
-   * @return
+   * @return result
    */
   public static boolean nand(boolean a) {
     return !and(a);
@@ -607,7 +607,7 @@ public final class Boolean {
    * Check if any value is false.
    * @param a 1st boolean
    * @param b 2nd boolean
-   * @return
+   * @return result
    */
   public static boolean nand(boolean a, boolean b) {
     return !and(a, b);
@@ -619,7 +619,7 @@ public final class Boolean {
    * @param a 1st boolean
    * @param b 2nd boolean
    * @param c 3rd boolean
-   * @return
+   * @return result
    */
   public static boolean nand(boolean a, boolean b, boolean c) {
     return !and(a, b, c);
@@ -632,7 +632,7 @@ public final class Boolean {
    * @param b 2nd boolean
    * @param c 3rd boolean
    * @param d 4th boolean
-   * @return
+   * @return result
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d) {
     return !and(a, b, c, d);
@@ -646,7 +646,7 @@ public final class Boolean {
    * @param c 3rd boolean
    * @param d 4th boolean
    * @param e 5th boolean
-   * @return
+   * @return result
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d, boolean e) {
     return !and(a, b, c, d, e);
@@ -661,7 +661,7 @@ public final class Boolean {
    * @param d 4th boolean
    * @param e 5th boolean
    * @param f 6th boolean
-   * @return
+   * @return result
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
     return !and(a, b, c, d, e, f);
@@ -677,7 +677,7 @@ public final class Boolean {
    * @param e 5th boolean
    * @param f 6th boolean
    * @param g 7th boolean
-   * @return
+   * @return result
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
     return !and(a, b, c, d, e, f, g);
@@ -694,7 +694,7 @@ public final class Boolean {
    * @param f 6th boolean
    * @param g 7th boolean
    * @param h 8th boolean
-   * @return
+   * @return result
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
     return !and(a, b, c, d, e, f, g, h);
@@ -706,7 +706,7 @@ public final class Boolean {
   // NOR (VARIABLE)
   /**
    * Check if all values are false.
-   * @return
+   * @return result
    */
   public static boolean nor() {
     return !or();
@@ -716,7 +716,7 @@ public final class Boolean {
   /**
    * Check if all values are false.
    * @param a 1st boolean
-   * @return
+   * @return result
    */
   public static boolean nor(boolean a) {
     return !or(a);
@@ -727,7 +727,7 @@ public final class Boolean {
    * Check if all values are false.
    * @param a 1st boolean
    * @param b 2nd boolean
-   * @return
+   * @return result
    */
   public static boolean nor(boolean a, boolean b) {
     return !or(a, b);
@@ -739,7 +739,7 @@ public final class Boolean {
    * @param a 1st boolean
    * @param b 2nd boolean
    * @param c 3rd boolean
-   * @return
+   * @return result
    */
   public static boolean nor(boolean a, boolean b, boolean c) {
     return !or(a, b, c);
@@ -752,7 +752,7 @@ public final class Boolean {
    * @param b 2nd boolean
    * @param c 3rd boolean
    * @param d 4th boolean
-   * @return
+   * @return result
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d) {
     return !or(a, b, c, d);
@@ -766,7 +766,7 @@ public final class Boolean {
    * @param c 3rd boolean
    * @param d 4th boolean
    * @param e 5th boolean
-   * @return
+   * @return result
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d, boolean e) {
     return !or(a, b, c, d, e);
@@ -781,7 +781,7 @@ public final class Boolean {
    * @param d 4th boolean
    * @param e 5th boolean
    * @param f 6th boolean
-   * @return
+   * @return result
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
     return !or(a, b, c, d, e, f);
@@ -797,7 +797,7 @@ public final class Boolean {
    * @param e 5th boolean
    * @param f 6th boolean
    * @param g 7th boolean
-   * @return
+   * @return result
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
     return !or(a, b, c, d, e, f, g);
@@ -814,7 +814,7 @@ public final class Boolean {
    * @param f 6th boolean
    * @param g 7th boolean
    * @param h 8th boolean
-   * @return
+   * @return result
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
     return !or(a, b, c, d, e, f, g, h);
@@ -826,7 +826,7 @@ public final class Boolean {
   // XNOR (VARIABLE)
   /**
    * Check if even no. of values are true.
-   * @return
+   * @return result
    */
   public static boolean xnor() {
     return !xor();
@@ -836,7 +836,7 @@ public final class Boolean {
   /**
    * Check if even no. of values are true.
    * @param a 1st boolean
-   * @return
+   * @return result
    */
   public static boolean xnor(boolean a) {
     return !xor(a);
@@ -847,7 +847,7 @@ public final class Boolean {
    * Check if even no. of values are true.
    * @param a 1st boolean
    * @param b 2nd boolean
-   * @return
+   * @return result
    */
   public static boolean xnor(boolean a, boolean b) {
     return !xor(a, b);
@@ -859,7 +859,7 @@ public final class Boolean {
    * @param a 1st boolean
    * @param b 2nd boolean
    * @param c 3rd boolean
-   * @return
+   * @return result
    */
   public static boolean xnor(boolean a, boolean b, boolean c) {
     return !xor(a, b, c);
@@ -872,7 +872,7 @@ public final class Boolean {
    * @param b 2nd boolean
    * @param c 3rd boolean
    * @param d 4th boolean
-   * @return
+   * @return result
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d) {
     return !xor(a, b, c, d);
@@ -886,7 +886,7 @@ public final class Boolean {
    * @param c 3rd boolean
    * @param d 4th boolean
    * @param e 5th boolean
-   * @return
+   * @return result
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d, boolean e) {
     return !xor(a, b, c, d, e);
@@ -901,7 +901,7 @@ public final class Boolean {
    * @param d 4th boolean
    * @param e 5th boolean
    * @param f 6th boolean
-   * @return
+   * @return result
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
     return !xor(a, b, c, d, e, f);
@@ -917,7 +917,7 @@ public final class Boolean {
    * @param e 5th boolean
    * @param f 6th boolean
    * @param g 7th boolean
-   * @return
+   * @return result
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
     return !xor(a, b, c, d, e, f, g);
@@ -934,7 +934,7 @@ public final class Boolean {
    * @param f 6th boolean
    * @param g 7th boolean
    * @param h 8th boolean
-   * @return
+   * @return result
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
     return !xor(a, b, c, d, e, f, g, h);
