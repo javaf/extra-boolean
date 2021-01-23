@@ -4,7 +4,7 @@ Boolean data type has two possible truth values to represent logic.<br>
 :octocat: [GitHub](https://github.com/javaf/hello-world/packages/575247),
 :frog: [Bintray](https://bintray.com/beta/#/bintray/jcenter/io.github.javaf:extra-boolean),
 :peacock: [MvnRepository](https://mvnrepository.com/artifact/io.github.javaf/extra-boolean),
-:newspaper: [Javadoc](https://javaf.github.io/extra-boolean/)
+:newspaper: [Javadoc](https://javaf.github.io/extra-boolean/),
 :blue_book: [Wiki](https://github.com/javaf/extra-boolean/wiki).
 
 > Stability: Experimental.
