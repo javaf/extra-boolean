@@ -23,14 +23,17 @@ Boolean.parse("not off");
 Boolean.parse("truthy");
 // true
 
-Boolean.xor(true, true);
-// false
-
-Boolean.imp(true, false);
-// false
-
-Boolean.eqv(false, false);
+Boolean.xor(true, true, true);
 // true
+
+Boolean.imply(true, false);
+// false
+
+Boolean.eq(false, false);
+// true
+
+Boolean.count(true, false, true);
+// 2
 ```
 
 <br>
