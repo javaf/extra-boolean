@@ -38,18 +38,30 @@ public class BooleanTest {
   public void testParse() {
     System.out.println("parse(s)");
     boolean x;
-    // 1.0
-    x = Boolean.parse("not true");
-    assertEquals(false, x);
-    // 1.1
-    x = Boolean.parse("inactive");
-    assertEquals(false, x);
-    // 1.2
-    x = Boolean.parse("not off");
+    // 1.t0
+    x = Boolean.parse("1");
     assertEquals(true, x);
-    // 1.3
+    // 1.t1
     x = Boolean.parse("truthy");
     assertEquals(true, x);
+    // 1.t2
+    x = Boolean.parse("not off");
+    assertEquals(true, x);
+    // 1.t3
+    x = Boolean.parse("enabled");
+    assertEquals(true, x);
+    // 1.f0
+    x = Boolean.parse("0");
+    assertEquals(false, x);
+    // 1.f1
+    x = Boolean.parse("not true");
+    assertEquals(false, x);
+    // 1.f2
+    x = Boolean.parse("inactive");
+    assertEquals(false, x);
+    // 1.f3
+    x = Boolean.parse("disabled");
+    assertEquals(false, x);
   }
 
 
@@ -409,6 +421,36 @@ public class BooleanTest {
     assertEquals(true, x);
     // 8.7
     x = Boolean.xnor(false, false, false, false, false, true, true, true);
+    assertEquals(false, x);
+  }
+
+
+
+
+  // SELECT (VARIABLE)
+  public void testSelect() {
+    System.out.println("select[n](i, a, b, ...)");
+    boolean x;
+    // 0.0
+    x = Boolean.select(0);
+    assertEquals(false, x);
+    // 1.0
+    x = Boolean.select(0, true);
+    assertEquals(true, x);
+    // 1.0
+    x = Boolean.select(1, true);
+    assertEquals(false, x);
+    // 2.3
+    x = Boolean.select(0, true, false);
+    assertEquals(true, x);
+    // 2.1
+    x = Boolean.select(1, true, false);
+    assertEquals(false, x);
+    // 8.0
+    x = Boolean.select(0, true, false, false, false, false, false, false, false);
+    assertEquals(true, x);
+    // 8.7
+    x = Boolean.select(7, true, false, false, false, false, false, false, false);
     assertEquals(false, x);
   }
 }
