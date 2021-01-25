@@ -1,7 +1,7 @@
 Boolean data type has two possible truth values to represent logic.<br>
 :package: [Central](https://search.maven.org/artifact/io.github.javaf/extra-boolean),
 :scroll: [Releases](https://repo1.maven.org/maven2/io/github/javaf/extra-boolean/),
-:octocat: [GitHub](https://github.com/javaf/hello-world/packages/579834),
+:smiley_cat: [GitHub](https://github.com/javaf/hello-world/packages/579834),
 :frog: [Bintray](https://bintray.com/beta/#/bintray/jcenter/io.github.javaf:extra-boolean),
 :peacock: [MvnRepository](https://mvnrepository.com/artifact/io.github.javaf/extra-boolean),
 :newspaper: [Javadoc](https://javaf.github.io/extra-boolean/),
@@ -14,17 +14,15 @@ Boolean data type has two possible truth values to represent logic.<br>
 ```java
 import io.github.javaf.*;
 
-Boolean.parse("inactive");
-// false
-
+Boolean.parse("1");
 Boolean.parse("not off");
-// true
-
 Boolean.parse("truthy");
 // true
 
-Boolean.xor(true, true, true);
-// true
+Boolean.parse("not true");
+Boolean.parse("inactive");
+Boolean.parse("disabled");
+// false
 
 Boolean.imply(true, false);
 // false
@@ -32,8 +30,14 @@ Boolean.imply(true, false);
 Boolean.eq(false, false);
 // true
 
+Boolean.xor(true, true, true);
+// true
+
+Boolean.select(1, true, false, true);
+// false                  ^
+
 Boolean.count(true, false, true);
-// 2
+// 2           ^            ^
 ```
 
 <br>
@@ -55,6 +59,7 @@ Boolean.count(true, false, true);
 | [eq]     | Check if antecedent ⇔ consequent.     |
 | [imply]  | Check if antecedent ⇒ consequent.     |
 | [nimply] | Check if antecedent ⇏ consequent.     |
+| [select] | Check if ith value is true.           |
 | [count]  | Count no. of true values.             |
 
 [parse]: https://github.com/javaf/extra-boolean/wiki/parse
@@ -68,6 +73,7 @@ Boolean.count(true, false, true);
 [eq]: https://github.com/javaf/extra-boolean/wiki/eq
 [imply]: https://github.com/javaf/extra-boolean/wiki/imply
 [nimply]: https://github.com/javaf/extra-boolean/wiki/nimply
+[select]: https://github.com/javaf/extra-boolean/wiki/select
 [count]: https://github.com/javaf/extra-boolean/wiki/count
 
 <br>
