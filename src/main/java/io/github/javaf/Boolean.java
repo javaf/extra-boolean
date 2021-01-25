@@ -32,10 +32,12 @@ public final class Boolean {
    * @param s a string
    * @return result
    *<pre>{@code
+   *parse("1")        == true
    *parse("truthy")   == true
    *parse("not off")  == true
    *parse("not true") == false
    *parse("inactive") == false
+   *parse("disabled") == false
    *}</pre>
    */
   public static boolean parse(String s) {
@@ -164,10 +166,10 @@ public final class Boolean {
    * <a href="https://github.com/javaf/extra-boolean/wiki/and">📘</a>
    * @return result
    *<pre>{@code
-   *and(true, true)   == true
-   *and(true, false)  == false
-   *and(false, true)  == false
-   *and(false, false) == false
+   *and(true, true)              == true
+   *and(true, false)             == false
+   *and(True, True, True, True)  == True
+   *and(True, False, True, True) == False
    *}</pre>
    */
   public static boolean and() {
@@ -181,10 +183,10 @@ public final class Boolean {
    * @param a 1st boolean
    * @return result
    *<pre>{@code
-   *and(true, true)   == true
-   *and(true, false)  == false
-   *and(false, true)  == false
-   *and(false, false) == false
+   *and(true, true)              == true
+   *and(true, false)             == false
+   *and(True, True, True, True)  == True
+   *and(True, False, True, True) == False
    *}</pre>
    */
   public static boolean and(boolean a) {
@@ -199,10 +201,10 @@ public final class Boolean {
    * @param b 2nd boolean
    * @return result
    *<pre>{@code
-   *and(true, true)   == true
-   *and(true, false)  == false
-   *and(false, true)  == false
-   *and(false, false) == false
+   *and(true, true)              == true
+   *and(true, false)             == false
+   *and(True, True, True, True)  == True
+   *and(True, False, True, True) == False
    *}</pre>
    */
   public static boolean and(boolean a, boolean b) {
@@ -218,10 +220,10 @@ public final class Boolean {
    * @param c 3rd boolean
    * @return result
    *<pre>{@code
-   *and(true, true)   == true
-   *and(true, false)  == false
-   *and(false, true)  == false
-   *and(false, false) == false
+   *and(true, true)              == true
+   *and(true, false)             == false
+   *and(True, True, True, True)  == True
+   *and(True, False, True, True) == False
    *}</pre>
    */
   public static boolean and(boolean a, boolean b, boolean c) {
@@ -238,10 +240,10 @@ public final class Boolean {
    * @param d 4th boolean
    * @return result
    *<pre>{@code
-   *and(true, true)   == true
-   *and(true, false)  == false
-   *and(false, true)  == false
-   *and(false, false) == false
+   *and(true, true)              == true
+   *and(true, false)             == false
+   *and(True, True, True, True)  == True
+   *and(True, False, True, True) == False
    *}</pre>
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d) {
@@ -259,10 +261,10 @@ public final class Boolean {
    * @param e 5th boolean
    * @return result
    *<pre>{@code
-   *and(true, true)   == true
-   *and(true, false)  == false
-   *and(false, true)  == false
-   *and(false, false) == false
+   *and(true, true)              == true
+   *and(true, false)             == false
+   *and(True, True, True, True)  == True
+   *and(True, False, True, True) == False
    *}</pre>
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -281,10 +283,10 @@ public final class Boolean {
    * @param f 6th boolean
    * @return result
    *<pre>{@code
-   *and(true, true)   == true
-   *and(true, false)  == false
-   *and(false, true)  == false
-   *and(false, false) == false
+   *and(true, true)              == true
+   *and(true, false)             == false
+   *and(True, True, True, True)  == True
+   *and(True, False, True, True) == False
    *}</pre>
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -304,10 +306,10 @@ public final class Boolean {
    * @param g 7th boolean
    * @return result
    *<pre>{@code
-   *and(true, true)   == true
-   *and(true, false)  == false
-   *and(false, true)  == false
-   *and(false, false) == false
+   *and(true, true)              == true
+   *and(true, false)             == false
+   *and(True, True, True, True)  == True
+   *and(True, False, True, True) == False
    *}</pre>
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -328,10 +330,10 @@ public final class Boolean {
    * @param h 8th boolean
    * @return result
    *<pre>{@code
-   *and(true, true)   == true
-   *and(true, false)  == false
-   *and(false, true)  == false
-   *and(false, false) == false
+   *and(true, true)              == true
+   *and(true, false)             == false
+   *and(True, True, True, True)  == True
+   *and(True, False, True, True) == False
    *}</pre>
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -347,10 +349,10 @@ public final class Boolean {
    * <a href="https://github.com/javaf/extra-boolean/wiki/or">📘</a>
    * @return result
    *<pre>{@code
-   *or(true, true)   == true
-   *or(true, false)  == true
-   *or(false, true)  == true
-   *or(false, false) == false
+   *or(true, false)                == true
+   *or(false, false)               == false
+   *or(False, True, False, True)   == True
+   *or(False, False, False, False) == False
    *}</pre>
    */
   public static boolean or() {
@@ -364,10 +366,10 @@ public final class Boolean {
    * @param a 1st boolean
    * @return result
    *<pre>{@code
-   *or(true, true)   == true
-   *or(true, false)  == true
-   *or(false, true)  == true
-   *or(false, false) == false
+   *or(true, false)                == true
+   *or(false, false)               == false
+   *or(False, True, False, True)   == True
+   *or(False, False, False, False) == False
    *}</pre>
    */
   public static boolean or(boolean a) {
@@ -382,10 +384,10 @@ public final class Boolean {
    * @param b 2nd boolean
    * @return result
    *<pre>{@code
-   *or(true, true)   == true
-   *or(true, false)  == true
-   *or(false, true)  == true
-   *or(false, false) == false
+   *or(true, false)                == true
+   *or(false, false)               == false
+   *or(False, True, False, True)   == True
+   *or(False, False, False, False) == False
    *}</pre>
    */
   public static boolean or(boolean a, boolean b) {
@@ -401,10 +403,10 @@ public final class Boolean {
    * @param c 3rd boolean
    * @return result
    *<pre>{@code
-   *or(true, true)   == true
-   *or(true, false)  == true
-   *or(false, true)  == true
-   *or(false, false) == false
+   *or(true, false)                == true
+   *or(false, false)               == false
+   *or(False, True, False, True)   == True
+   *or(False, False, False, False) == False
    *}</pre>
    */
   public static boolean or(boolean a, boolean b, boolean c) {
@@ -421,10 +423,10 @@ public final class Boolean {
    * @param d 4th boolean
    * @return result
    *<pre>{@code
-   *or(true, true)   == true
-   *or(true, false)  == true
-   *or(false, true)  == true
-   *or(false, false) == false
+   *or(true, false)                == true
+   *or(false, false)               == false
+   *or(False, True, False, True)   == True
+   *or(False, False, False, False) == False
    *}</pre>
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d) {
@@ -442,10 +444,10 @@ public final class Boolean {
    * @param e 5th boolean
    * @return result
    *<pre>{@code
-   *or(true, true)   == true
-   *or(true, false)  == true
-   *or(false, true)  == true
-   *or(false, false) == false
+   *or(true, false)                == true
+   *or(false, false)               == false
+   *or(False, True, False, True)   == True
+   *or(False, False, False, False) == False
    *}</pre>
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -464,10 +466,10 @@ public final class Boolean {
    * @param f 6th boolean
    * @return result
    *<pre>{@code
-   *or(true, true)   == true
-   *or(true, false)  == true
-   *or(false, true)  == true
-   *or(false, false) == false
+   *or(true, false)                == true
+   *or(false, false)               == false
+   *or(False, True, False, True)   == True
+   *or(False, False, False, False) == False
    *}</pre>
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -487,10 +489,10 @@ public final class Boolean {
    * @param g 7th boolean
    * @return result
    *<pre>{@code
-   *or(true, true)   == true
-   *or(true, false)  == true
-   *or(false, true)  == true
-   *or(false, false) == false
+   *or(true, false)                == true
+   *or(false, false)               == false
+   *or(False, True, False, True)   == True
+   *or(False, False, False, False) == False
    *}</pre>
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -511,10 +513,10 @@ public final class Boolean {
    * @param h 8th boolean
    * @return result
    *<pre>{@code
-   *or(true, true)   == true
-   *or(true, false)  == true
-   *or(false, true)  == true
-   *or(false, false) == false
+   *or(true, false)                == true
+   *or(false, false)               == false
+   *or(False, True, False, True)   == True
+   *or(False, False, False, False) == False
    *}</pre>
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -530,10 +532,10 @@ public final class Boolean {
    * <a href="https://github.com/javaf/extra-boolean/wiki/xor">📘</a>
    * @return result
    *<pre>{@code
-   *xor(true, false)  == true
-   *xor(false, true)  == true
-   *xor(true, true)   == false
-   *xor(false, false) == false
+   *xor(true, false)             == true
+   *xor(true, true)              == false
+   *xor(True, True, True, False) == True
+   *xor(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean xor() {
@@ -547,10 +549,10 @@ public final class Boolean {
    * @param a 1st boolean
    * @return result
    *<pre>{@code
-   *xor(true, false)  == true
-   *xor(false, true)  == true
-   *xor(true, true)   == false
-   *xor(false, false) == false
+   *xor(true, false)             == true
+   *xor(true, true)              == false
+   *xor(True, True, True, False) == True
+   *xor(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean xor(boolean a) {
@@ -565,10 +567,10 @@ public final class Boolean {
    * @param b 2nd boolean
    * @return result
    *<pre>{@code
-   *xor(true, false)  == true
-   *xor(false, true)  == true
-   *xor(true, true)   == false
-   *xor(false, false) == false
+   *xor(true, false)             == true
+   *xor(true, true)              == false
+   *xor(True, True, True, False) == True
+   *xor(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b) {
@@ -584,10 +586,10 @@ public final class Boolean {
    * @param c 3rd boolean
    * @return result
    *<pre>{@code
-   *xor(true, false)  == true
-   *xor(false, true)  == true
-   *xor(true, true)   == false
-   *xor(false, false) == false
+   *xor(true, false)             == true
+   *xor(true, true)              == false
+   *xor(True, True, True, False) == True
+   *xor(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b, boolean c) {
@@ -604,10 +606,10 @@ public final class Boolean {
    * @param d 4th boolean
    * @return result
    *<pre>{@code
-   *xor(true, false)  == true
-   *xor(false, true)  == true
-   *xor(true, true)   == false
-   *xor(false, false) == false
+   *xor(true, false)             == true
+   *xor(true, true)              == false
+   *xor(True, True, True, False) == True
+   *xor(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d) {
@@ -625,10 +627,10 @@ public final class Boolean {
    * @param e 5th boolean
    * @return result
    *<pre>{@code
-   *xor(true, false)  == true
-   *xor(false, true)  == true
-   *xor(true, true)   == false
-   *xor(false, false) == false
+   *xor(true, false)             == true
+   *xor(true, true)              == false
+   *xor(True, True, True, False) == True
+   *xor(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -647,10 +649,10 @@ public final class Boolean {
    * @param f 6th boolean
    * @return result
    *<pre>{@code
-   *xor(true, false)  == true
-   *xor(false, true)  == true
-   *xor(true, true)   == false
-   *xor(false, false) == false
+   *xor(true, false)             == true
+   *xor(true, true)              == false
+   *xor(True, True, True, False) == True
+   *xor(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -670,10 +672,10 @@ public final class Boolean {
    * @param g 7th boolean
    * @return result
    *<pre>{@code
-   *xor(true, false)  == true
-   *xor(false, true)  == true
-   *xor(true, true)   == false
-   *xor(false, false) == false
+   *xor(true, false)             == true
+   *xor(true, true)              == false
+   *xor(True, True, True, False) == True
+   *xor(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -694,10 +696,10 @@ public final class Boolean {
    * @param h 8th boolean
    * @return result
    *<pre>{@code
-   *xor(true, false)  == true
-   *xor(false, true)  == true
-   *xor(true, true)   == false
-   *xor(false, false) == false
+   *xor(true, false)             == true
+   *xor(true, true)              == false
+   *xor(True, True, True, False) == True
+   *xor(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -715,8 +717,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(false, true)  == 1
-   *count(false, false) == 0
+   *count(True, True, True, False)   == 3
+   *count(False, True, False, False) == 1
    *}</pre>
    */
   public static int count() {
@@ -732,8 +734,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(false, true)  == 1
-   *count(false, false) == 0
+   *count(True, True, True, False)   == 3
+   *count(False, True, False, False) == 1
    *}</pre>
    */
   public static int count(boolean a) {
@@ -750,8 +752,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(false, true)  == 1
-   *count(false, false) == 0
+   *count(True, True, True, False)   == 3
+   *count(False, True, False, False) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b) {
@@ -769,8 +771,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(false, true)  == 1
-   *count(false, false) == 0
+   *count(True, True, True, False)   == 3
+   *count(False, True, False, False) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b, boolean c) {
@@ -789,8 +791,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(false, true)  == 1
-   *count(false, false) == 0
+   *count(True, True, True, False)   == 3
+   *count(False, True, False, False) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b, boolean c, boolean d) {
@@ -810,8 +812,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(false, true)  == 1
-   *count(false, false) == 0
+   *count(True, True, True, False)   == 3
+   *count(False, True, False, False) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -832,8 +834,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(false, true)  == 1
-   *count(false, false) == 0
+   *count(True, True, True, False)   == 3
+   *count(False, True, False, False) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -855,8 +857,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(false, true)  == 1
-   *count(false, false) == 0
+   *count(True, True, True, False)   == 3
+   *count(False, True, False, False) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -879,8 +881,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(false, true)  == 1
-   *count(false, false) == 0
+   *count(True, True, True, False)   == 3
+   *count(False, True, False, False) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -897,9 +899,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nand(true, false)  == true
-   *nand(false, true)  == true
-   *nand(false, false) == true
    *nand(true, true)   == false
+   *nand(True, True, False, True) == True
+   *nand(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean nand() {
@@ -914,9 +916,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nand(true, false)  == true
-   *nand(false, true)  == true
-   *nand(false, false) == true
    *nand(true, true)   == false
+   *nand(True, True, False, True) == True
+   *nand(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean nand(boolean a) {
@@ -932,9 +934,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nand(true, false)  == true
-   *nand(false, true)  == true
-   *nand(false, false) == true
    *nand(true, true)   == false
+   *nand(True, True, False, True) == True
+   *nand(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b) {
@@ -951,9 +953,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nand(true, false)  == true
-   *nand(false, true)  == true
-   *nand(false, false) == true
    *nand(true, true)   == false
+   *nand(True, True, False, True) == True
+   *nand(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b, boolean c) {
@@ -971,9 +973,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nand(true, false)  == true
-   *nand(false, true)  == true
-   *nand(false, false) == true
    *nand(true, true)   == false
+   *nand(True, True, False, True) == True
+   *nand(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d) {
@@ -992,9 +994,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nand(true, false)  == true
-   *nand(false, true)  == true
-   *nand(false, false) == true
    *nand(true, true)   == false
+   *nand(True, True, False, True) == True
+   *nand(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -1014,9 +1016,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nand(true, false)  == true
-   *nand(false, true)  == true
-   *nand(false, false) == true
    *nand(true, true)   == false
+   *nand(True, True, False, True) == True
+   *nand(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -1037,9 +1039,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nand(true, false)  == true
-   *nand(false, true)  == true
-   *nand(false, false) == true
    *nand(true, true)   == false
+   *nand(True, True, False, True) == True
+   *nand(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -1061,9 +1063,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nand(true, false)  == true
-   *nand(false, true)  == true
-   *nand(false, false) == true
    *nand(true, true)   == false
+   *nand(True, True, False, True) == True
+   *nand(True, True, True, True)  == False
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -1080,9 +1082,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nor(false, false) == true
-   *nor(true, true)   == false
    *nor(true, false)  == false
-   *nor(false, true)  == false
+   *nor(False, False, False, False) == True
+   *nor(False, False, True, False)  == False
    *}</pre>
    */
   public static boolean nor() {
@@ -1097,9 +1099,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nor(false, false) == true
-   *nor(true, true)   == false
    *nor(true, false)  == false
-   *nor(false, true)  == false
+   *nor(False, False, False, False) == True
+   *nor(False, False, True, False)  == False
    *}</pre>
    */
   public static boolean nor(boolean a) {
@@ -1115,9 +1117,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nor(false, false) == true
-   *nor(true, true)   == false
    *nor(true, false)  == false
-   *nor(false, true)  == false
+   *nor(False, False, False, False) == True
+   *nor(False, False, True, False)  == False
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b) {
@@ -1134,9 +1136,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nor(false, false) == true
-   *nor(true, true)   == false
    *nor(true, false)  == false
-   *nor(false, true)  == false
+   *nor(False, False, False, False) == True
+   *nor(False, False, True, False)  == False
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b, boolean c) {
@@ -1154,9 +1156,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nor(false, false) == true
-   *nor(true, true)   == false
    *nor(true, false)  == false
-   *nor(false, true)  == false
+   *nor(False, False, False, False) == True
+   *nor(False, False, True, False)  == False
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d) {
@@ -1175,9 +1177,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nor(false, false) == true
-   *nor(true, true)   == false
    *nor(true, false)  == false
-   *nor(false, true)  == false
+   *nor(False, False, False, False) == True
+   *nor(False, False, True, False)  == False
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -1197,9 +1199,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nor(false, false) == true
-   *nor(true, true)   == false
    *nor(true, false)  == false
-   *nor(false, true)  == false
+   *nor(False, False, False, False) == True
+   *nor(False, False, True, False)  == False
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -1220,9 +1222,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nor(false, false) == true
-   *nor(true, true)   == false
    *nor(true, false)  == false
-   *nor(false, true)  == false
+   *nor(False, False, False, False) == True
+   *nor(False, False, True, False)  == False
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -1244,9 +1246,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *nor(false, false) == true
-   *nor(true, true)   == false
    *nor(true, false)  == false
-   *nor(false, true)  == false
+   *nor(False, False, False, False) == True
+   *nor(False, False, True, False)  == False
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -1263,9 +1265,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *xnor(true, true)   == true
-   *xnor(false, false) == true
-   *xnor(true, false)  == false
    *xnor(false, true)  == false
+   *xnor(True, True, False, False) == True
+   *xnor(True, True, True, False)  == False
    *}</pre>
    */
   public static boolean xnor() {
@@ -1280,9 +1282,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *xnor(true, true)   == true
-   *xnor(false, false) == true
-   *xnor(true, false)  == false
    *xnor(false, true)  == false
+   *xnor(True, True, False, False) == True
+   *xnor(True, True, True, False)  == False
    *}</pre>
    */
   public static boolean xnor(boolean a) {
@@ -1298,9 +1300,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *xnor(true, true)   == true
-   *xnor(false, false) == true
-   *xnor(true, false)  == false
    *xnor(false, true)  == false
+   *xnor(True, True, False, False) == True
+   *xnor(True, True, True, False)  == False
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b) {
@@ -1317,9 +1319,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *xnor(true, true)   == true
-   *xnor(false, false) == true
-   *xnor(true, false)  == false
    *xnor(false, true)  == false
+   *xnor(True, True, False, False) == True
+   *xnor(True, True, True, False)  == False
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b, boolean c) {
@@ -1337,9 +1339,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *xnor(true, true)   == true
-   *xnor(false, false) == true
-   *xnor(true, false)  == false
    *xnor(false, true)  == false
+   *xnor(True, True, False, False) == True
+   *xnor(True, True, True, False)  == False
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d) {
@@ -1358,9 +1360,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *xnor(true, true)   == true
-   *xnor(false, false) == true
-   *xnor(true, false)  == false
    *xnor(false, true)  == false
+   *xnor(True, True, False, False) == True
+   *xnor(True, True, True, False)  == False
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -1380,9 +1382,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *xnor(true, true)   == true
-   *xnor(false, false) == true
-   *xnor(true, false)  == false
    *xnor(false, true)  == false
+   *xnor(True, True, False, False) == True
+   *xnor(True, True, True, False)  == False
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -1403,9 +1405,9 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *xnor(true, true)   == true
-   *xnor(false, false) == true
-   *xnor(true, false)  == false
    *xnor(false, true)  == false
+   *xnor(True, True, False, False) == True
+   *xnor(True, True, True, False)  == False
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -1427,12 +1429,256 @@ public final class Boolean {
    * @return result
    *<pre>{@code
    *xnor(true, true)   == true
-   *xnor(false, false) == true
-   *xnor(true, false)  == false
    *xnor(false, true)  == false
+   *xnor(True, True, False, False) == True
+   *xnor(True, True, True, False)  == False
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
     return !xor(a, b, c, d, e, f, g, h);
+  }
+
+
+
+
+  // SELECT (VARIABLE)
+  /**
+   * Check if ith value is true.
+   * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
+   * @param i index
+   * @return result
+   *<pre>{@code
+   *select(0, True, False)              == True
+   *select(1, True, False)              == False
+   *select(1, True, True, False, False) == True
+   *select(2, True, True, False, False) == False
+   *}</pre>
+   */
+  public static boolean select(int i) {
+    return false;
+  }
+
+
+  /**
+   * Check if ith value is true.
+   * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
+   * @param i index
+   * @param a 1st boolean
+   * @return result
+   *<pre>{@code
+   *select(0, True, False)              == True
+   *select(1, True, False)              == False
+   *select(1, True, True, False, False) == True
+   *select(2, True, True, False, False) == False
+   *}</pre>
+   */
+  public static boolean select(int i, boolean a) {
+    switch (i) {
+      case 0: return a;
+      default: return false;
+    }
+  }
+
+
+  /**
+   * Check if ith value is true.
+   * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
+   * @param i index
+   * @param a 1st boolean
+   * @param b 2nd boolean
+   * @return result
+   *<pre>{@code
+   *select(0, True, False)              == True
+   *select(1, True, False)              == False
+   *select(1, True, True, False, False) == True
+   *select(2, True, True, False, False) == False
+   *}</pre>
+   */
+  public static boolean select(int i, boolean a, boolean b) {
+    switch (i) {
+      case 0: return a;
+      case 1: return b;
+      default: return false;
+    }
+  }
+
+
+  /**
+   * Check if ith value is true.
+   * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
+   * @param i index
+   * @param a 1st boolean
+   * @param b 2nd boolean
+   * @param c 3rd boolean
+   * @return result
+   *<pre>{@code
+   *select(0, True, False)              == True
+   *select(1, True, False)              == False
+   *select(1, True, True, False, False) == True
+   *select(2, True, True, False, False) == False
+   *}</pre>
+   */
+  public static boolean select(int i, boolean a, boolean b, boolean c) {
+    switch (i) {
+      case 0: return a;
+      case 1: return b;
+      case 2: return c;
+      default: return false;
+    }
+  }
+
+
+  /**
+   * Check if ith value is true.
+   * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
+   * @param i index
+   * @param a 1st boolean
+   * @param b 2nd boolean
+   * @param c 3rd boolean
+   * @param d 4th boolean
+   * @return result
+   *<pre>{@code
+   *select(0, True, False)              == True
+   *select(1, True, False)              == False
+   *select(1, True, True, False, False) == True
+   *select(2, True, True, False, False) == False
+   *}</pre>
+   */
+  public static boolean select(int i, boolean a, boolean b, boolean c, boolean d) {
+    switch (i) {
+      case 0: return a;
+      case 1: return b;
+      case 2: return c;
+      case 3: return d;
+      default: return false;
+    }
+  }
+
+
+  /**
+   * Check if ith value is true.
+   * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
+   * @param i index
+   * @param a 1st boolean
+   * @param b 2nd boolean
+   * @param c 3rd boolean
+   * @param d 4th boolean
+   * @param e 5th boolean
+   * @return result
+   *<pre>{@code
+   *select(0, True, False)              == True
+   *select(1, True, False)              == False
+   *select(1, True, True, False, False) == True
+   *select(2, True, True, False, False) == False
+   *}</pre>
+   */
+  public static boolean select(int i, boolean a, boolean b, boolean c, boolean d, boolean e) {
+    switch (i) {
+      case 0: return a;
+      case 1: return b;
+      case 2: return c;
+      case 3: return d;
+      case 4: return e;
+      default: return false;
+    }
+  }
+
+
+  /**
+   * Check if ith value is true.
+   * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
+   * @param i index
+   * @param a 1st boolean
+   * @param b 2nd boolean
+   * @param c 3rd boolean
+   * @param d 4th boolean
+   * @param e 5th boolean
+   * @param f 6th boolean
+   * @return result
+   *<pre>{@code
+   *select(0, True, False)              == True
+   *select(1, True, False)              == False
+   *select(1, True, True, False, False) == True
+   *select(2, True, True, False, False) == False
+   *}</pre>
+   */
+  public static boolean select(int i, boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
+    switch (i) {
+      case 0: return a;
+      case 1: return b;
+      case 2: return c;
+      case 3: return d;
+      case 4: return e;
+      case 5: return f;
+      default: return false;
+    }
+  }
+
+
+  /**
+   * Check if ith value is true.
+   * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
+   * @param i index
+   * @param a 1st boolean
+   * @param b 2nd boolean
+   * @param c 3rd boolean
+   * @param d 4th boolean
+   * @param e 5th boolean
+   * @param f 6th boolean
+   * @param g 7th boolean
+   * @return result
+   *<pre>{@code
+   *select(0, True, False)              == True
+   *select(1, True, False)              == False
+   *select(1, True, True, False, False) == True
+   *select(2, True, True, False, False) == False
+   *}</pre>
+   */
+  public static boolean select(int i, boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
+    switch (i) {
+      case 0: return a;
+      case 1: return b;
+      case 2: return c;
+      case 3: return d;
+      case 4: return e;
+      case 5: return f;
+      case 6: return g;
+      default: return false;
+    }
+  }
+
+
+  /**
+   * Check if ith value is true.
+   * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
+   * @param i index
+   * @param a 1st boolean
+   * @param b 2nd boolean
+   * @param c 3rd boolean
+   * @param d 4th boolean
+   * @param e 5th boolean
+   * @param f 6th boolean
+   * @param g 7th boolean
+   * @param h 8th boolean
+   * @return result
+   *<pre>{@code
+   *select(0, True, False)              == True
+   *select(1, True, False)              == False
+   *select(1, True, True, False, False) == True
+   *select(2, True, True, False, False) == False
+   *}</pre>
+   */
+  public static boolean select(int i, boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
+    switch (i) {
+      case 0: return a;
+      case 1: return b;
+      case 2: return c;
+      case 3: return d;
+      case 4: return e;
+      case 5: return f;
+      case 6: return g;
+      case 7: return h;
+      default: return false;
+    }
   }
 }
