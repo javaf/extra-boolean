@@ -168,8 +168,8 @@ public final class Boolean {
    *<pre>{@code
    *and(true, true)              == true
    *and(true, false)             == false
-   *and(True, True, True, True)  == True
-   *and(True, False, True, True) == False
+   *and(true, true, true, true)  == true
+   *and(true, false, true, true) == false
    *}</pre>
    */
   public static boolean and() {
@@ -185,8 +185,8 @@ public final class Boolean {
    *<pre>{@code
    *and(true, true)              == true
    *and(true, false)             == false
-   *and(True, True, True, True)  == True
-   *and(True, False, True, True) == False
+   *and(true, true, true, true)  == true
+   *and(true, false, true, true) == false
    *}</pre>
    */
   public static boolean and(boolean a) {
@@ -203,8 +203,8 @@ public final class Boolean {
    *<pre>{@code
    *and(true, true)              == true
    *and(true, false)             == false
-   *and(True, True, True, True)  == True
-   *and(True, False, True, True) == False
+   *and(true, true, true, true)  == true
+   *and(true, false, true, true) == false
    *}</pre>
    */
   public static boolean and(boolean a, boolean b) {
@@ -222,8 +222,8 @@ public final class Boolean {
    *<pre>{@code
    *and(true, true)              == true
    *and(true, false)             == false
-   *and(True, True, True, True)  == True
-   *and(True, False, True, True) == False
+   *and(true, true, true, true)  == true
+   *and(true, false, true, true) == false
    *}</pre>
    */
   public static boolean and(boolean a, boolean b, boolean c) {
@@ -242,8 +242,8 @@ public final class Boolean {
    *<pre>{@code
    *and(true, true)              == true
    *and(true, false)             == false
-   *and(True, True, True, True)  == True
-   *and(True, False, True, True) == False
+   *and(true, true, true, true)  == true
+   *and(true, false, true, true) == false
    *}</pre>
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d) {
@@ -263,8 +263,8 @@ public final class Boolean {
    *<pre>{@code
    *and(true, true)              == true
    *and(true, false)             == false
-   *and(True, True, True, True)  == True
-   *and(True, False, True, True) == False
+   *and(true, true, true, true)  == true
+   *and(true, false, true, true) == false
    *}</pre>
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -285,8 +285,8 @@ public final class Boolean {
    *<pre>{@code
    *and(true, true)              == true
    *and(true, false)             == false
-   *and(True, True, True, True)  == True
-   *and(True, False, True, True) == False
+   *and(true, true, true, true)  == true
+   *and(true, false, true, true) == false
    *}</pre>
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -308,8 +308,8 @@ public final class Boolean {
    *<pre>{@code
    *and(true, true)              == true
    *and(true, false)             == false
-   *and(True, True, True, True)  == True
-   *and(True, False, True, True) == False
+   *and(true, true, true, true)  == true
+   *and(true, false, true, true) == false
    *}</pre>
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -332,8 +332,8 @@ public final class Boolean {
    *<pre>{@code
    *and(true, true)              == true
    *and(true, false)             == false
-   *and(True, True, True, True)  == True
-   *and(True, False, True, True) == False
+   *and(true, true, true, true)  == true
+   *and(true, false, true, true) == false
    *}</pre>
    */
   public static boolean and(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -351,8 +351,8 @@ public final class Boolean {
    *<pre>{@code
    *or(true, false)                == true
    *or(false, false)               == false
-   *or(False, True, False, True)   == True
-   *or(False, False, False, False) == False
+   *or(false, true, false, true)   == true
+   *or(false, false, false, false) == false
    *}</pre>
    */
   public static boolean or() {
@@ -368,8 +368,8 @@ public final class Boolean {
    *<pre>{@code
    *or(true, false)                == true
    *or(false, false)               == false
-   *or(False, True, False, True)   == True
-   *or(False, False, False, False) == False
+   *or(false, true, false, true)   == true
+   *or(false, false, false, false) == false
    *}</pre>
    */
   public static boolean or(boolean a) {
@@ -386,8 +386,8 @@ public final class Boolean {
    *<pre>{@code
    *or(true, false)                == true
    *or(false, false)               == false
-   *or(False, True, False, True)   == True
-   *or(False, False, False, False) == False
+   *or(false, true, false, true)   == true
+   *or(false, false, false, false) == false
    *}</pre>
    */
   public static boolean or(boolean a, boolean b) {
@@ -405,8 +405,8 @@ public final class Boolean {
    *<pre>{@code
    *or(true, false)                == true
    *or(false, false)               == false
-   *or(False, True, False, True)   == True
-   *or(False, False, False, False) == False
+   *or(false, true, false, true)   == true
+   *or(false, false, false, false) == false
    *}</pre>
    */
   public static boolean or(boolean a, boolean b, boolean c) {
@@ -425,8 +425,8 @@ public final class Boolean {
    *<pre>{@code
    *or(true, false)                == true
    *or(false, false)               == false
-   *or(False, True, False, True)   == True
-   *or(False, False, False, False) == False
+   *or(false, true, false, true)   == true
+   *or(false, false, false, false) == false
    *}</pre>
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d) {
@@ -446,8 +446,8 @@ public final class Boolean {
    *<pre>{@code
    *or(true, false)                == true
    *or(false, false)               == false
-   *or(False, True, False, True)   == True
-   *or(False, False, False, False) == False
+   *or(false, true, false, true)   == true
+   *or(false, false, false, false) == false
    *}</pre>
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -468,8 +468,8 @@ public final class Boolean {
    *<pre>{@code
    *or(true, false)                == true
    *or(false, false)               == false
-   *or(False, True, False, True)   == True
-   *or(False, False, False, False) == False
+   *or(false, true, false, true)   == true
+   *or(false, false, false, false) == false
    *}</pre>
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -491,8 +491,8 @@ public final class Boolean {
    *<pre>{@code
    *or(true, false)                == true
    *or(false, false)               == false
-   *or(False, True, False, True)   == True
-   *or(False, False, False, False) == False
+   *or(false, true, false, true)   == true
+   *or(false, false, false, false) == false
    *}</pre>
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -515,8 +515,8 @@ public final class Boolean {
    *<pre>{@code
    *or(true, false)                == true
    *or(false, false)               == false
-   *or(False, True, False, True)   == True
-   *or(False, False, False, False) == False
+   *or(false, true, false, true)   == true
+   *or(false, false, false, false) == false
    *}</pre>
    */
   public static boolean or(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -534,8 +534,8 @@ public final class Boolean {
    *<pre>{@code
    *xor(true, false)             == true
    *xor(true, true)              == false
-   *xor(True, True, True, False) == True
-   *xor(True, True, True, True)  == False
+   *xor(true, true, true, false) == true
+   *xor(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean xor() {
@@ -551,8 +551,8 @@ public final class Boolean {
    *<pre>{@code
    *xor(true, false)             == true
    *xor(true, true)              == false
-   *xor(True, True, True, False) == True
-   *xor(True, True, True, True)  == False
+   *xor(true, true, true, false) == true
+   *xor(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean xor(boolean a) {
@@ -569,8 +569,8 @@ public final class Boolean {
    *<pre>{@code
    *xor(true, false)             == true
    *xor(true, true)              == false
-   *xor(True, True, True, False) == True
-   *xor(True, True, True, True)  == False
+   *xor(true, true, true, false) == true
+   *xor(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b) {
@@ -588,8 +588,8 @@ public final class Boolean {
    *<pre>{@code
    *xor(true, false)             == true
    *xor(true, true)              == false
-   *xor(True, True, True, False) == True
-   *xor(True, True, True, True)  == False
+   *xor(true, true, true, false) == true
+   *xor(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b, boolean c) {
@@ -608,8 +608,8 @@ public final class Boolean {
    *<pre>{@code
    *xor(true, false)             == true
    *xor(true, true)              == false
-   *xor(True, True, True, False) == True
-   *xor(True, True, True, True)  == False
+   *xor(true, true, true, false) == true
+   *xor(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d) {
@@ -629,8 +629,8 @@ public final class Boolean {
    *<pre>{@code
    *xor(true, false)             == true
    *xor(true, true)              == false
-   *xor(True, True, True, False) == True
-   *xor(True, True, True, True)  == False
+   *xor(true, true, true, false) == true
+   *xor(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -651,8 +651,8 @@ public final class Boolean {
    *<pre>{@code
    *xor(true, false)             == true
    *xor(true, true)              == false
-   *xor(True, True, True, False) == True
-   *xor(True, True, True, True)  == False
+   *xor(true, true, true, false) == true
+   *xor(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -674,8 +674,8 @@ public final class Boolean {
    *<pre>{@code
    *xor(true, false)             == true
    *xor(true, true)              == false
-   *xor(True, True, True, False) == True
-   *xor(True, True, True, True)  == False
+   *xor(true, true, true, false) == true
+   *xor(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -698,8 +698,8 @@ public final class Boolean {
    *<pre>{@code
    *xor(true, false)             == true
    *xor(true, true)              == false
-   *xor(True, True, True, False) == True
-   *xor(True, True, True, True)  == False
+   *xor(true, true, true, false) == true
+   *xor(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean xor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -717,8 +717,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(True, True, True, False)   == 3
-   *count(False, True, False, False) == 1
+   *count(true, true, true, false)   == 3
+   *count(false, true, false, false) == 1
    *}</pre>
    */
   public static int count() {
@@ -734,8 +734,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(True, True, True, False)   == 3
-   *count(False, True, False, False) == 1
+   *count(true, true, true, false)   == 3
+   *count(false, true, false, false) == 1
    *}</pre>
    */
   public static int count(boolean a) {
@@ -752,8 +752,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(True, True, True, False)   == 3
-   *count(False, True, False, False) == 1
+   *count(true, true, true, false)   == 3
+   *count(false, true, false, false) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b) {
@@ -771,8 +771,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(True, True, True, False)   == 3
-   *count(False, True, False, False) == 1
+   *count(true, true, true, false)   == 3
+   *count(false, true, false, false) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b, boolean c) {
@@ -791,8 +791,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(True, True, True, False)   == 3
-   *count(False, True, False, False) == 1
+   *count(true, true, true, false)   == 3
+   *count(false, true, false, false) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b, boolean c, boolean d) {
@@ -812,8 +812,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(True, True, True, False)   == 3
-   *count(False, True, False, False) == 1
+   *count(true, true, true, false)   == 3
+   *count(false, true, false, false) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -834,8 +834,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(True, True, True, False)   == 3
-   *count(False, True, False, False) == 1
+   *count(true, true, true, false)   == 3
+   *count(false, true, false, false) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -857,8 +857,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(True, True, True, False)   == 3
-   *count(False, True, False, False) == 1
+   *count(true, true, true, false)   == 3
+   *count(false, true, false, false) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -881,8 +881,8 @@ public final class Boolean {
    *<pre>{@code
    *count(true, true)   == 2
    *count(true, false)  == 1
-   *count(True, True, True, False)   == 3
-   *count(False, True, False, False) == 1
+   *count(true, true, true, false)   == 3
+   *count(false, true, false, false) == 1
    *}</pre>
    */
   public static int count(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -900,8 +900,8 @@ public final class Boolean {
    *<pre>{@code
    *nand(true, false)  == true
    *nand(true, true)   == false
-   *nand(True, True, False, True) == True
-   *nand(True, True, True, True)  == False
+   *nand(true, true, false, true) == true
+   *nand(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean nand() {
@@ -917,8 +917,8 @@ public final class Boolean {
    *<pre>{@code
    *nand(true, false)  == true
    *nand(true, true)   == false
-   *nand(True, True, False, True) == True
-   *nand(True, True, True, True)  == False
+   *nand(true, true, false, true) == true
+   *nand(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean nand(boolean a) {
@@ -935,8 +935,8 @@ public final class Boolean {
    *<pre>{@code
    *nand(true, false)  == true
    *nand(true, true)   == false
-   *nand(True, True, False, True) == True
-   *nand(True, True, True, True)  == False
+   *nand(true, true, false, true) == true
+   *nand(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b) {
@@ -954,8 +954,8 @@ public final class Boolean {
    *<pre>{@code
    *nand(true, false)  == true
    *nand(true, true)   == false
-   *nand(True, True, False, True) == True
-   *nand(True, True, True, True)  == False
+   *nand(true, true, false, true) == true
+   *nand(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b, boolean c) {
@@ -974,8 +974,8 @@ public final class Boolean {
    *<pre>{@code
    *nand(true, false)  == true
    *nand(true, true)   == false
-   *nand(True, True, False, True) == True
-   *nand(True, True, True, True)  == False
+   *nand(true, true, false, true) == true
+   *nand(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d) {
@@ -995,8 +995,8 @@ public final class Boolean {
    *<pre>{@code
    *nand(true, false)  == true
    *nand(true, true)   == false
-   *nand(True, True, False, True) == True
-   *nand(True, True, True, True)  == False
+   *nand(true, true, false, true) == true
+   *nand(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -1017,8 +1017,8 @@ public final class Boolean {
    *<pre>{@code
    *nand(true, false)  == true
    *nand(true, true)   == false
-   *nand(True, True, False, True) == True
-   *nand(True, True, True, True)  == False
+   *nand(true, true, false, true) == true
+   *nand(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -1040,8 +1040,8 @@ public final class Boolean {
    *<pre>{@code
    *nand(true, false)  == true
    *nand(true, true)   == false
-   *nand(True, True, False, True) == True
-   *nand(True, True, True, True)  == False
+   *nand(true, true, false, true) == true
+   *nand(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -1064,8 +1064,8 @@ public final class Boolean {
    *<pre>{@code
    *nand(true, false)  == true
    *nand(true, true)   == false
-   *nand(True, True, False, True) == True
-   *nand(True, True, True, True)  == False
+   *nand(true, true, false, true) == true
+   *nand(true, true, true, true)  == false
    *}</pre>
    */
   public static boolean nand(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -1083,8 +1083,8 @@ public final class Boolean {
    *<pre>{@code
    *nor(false, false) == true
    *nor(true, false)  == false
-   *nor(False, False, False, False) == True
-   *nor(False, False, True, False)  == False
+   *nor(false, false, false, false) == true
+   *nor(false, false, true, false)  == false
    *}</pre>
    */
   public static boolean nor() {
@@ -1100,8 +1100,8 @@ public final class Boolean {
    *<pre>{@code
    *nor(false, false) == true
    *nor(true, false)  == false
-   *nor(False, False, False, False) == True
-   *nor(False, False, True, False)  == False
+   *nor(false, false, false, false) == true
+   *nor(false, false, true, false)  == false
    *}</pre>
    */
   public static boolean nor(boolean a) {
@@ -1118,8 +1118,8 @@ public final class Boolean {
    *<pre>{@code
    *nor(false, false) == true
    *nor(true, false)  == false
-   *nor(False, False, False, False) == True
-   *nor(False, False, True, False)  == False
+   *nor(false, false, false, false) == true
+   *nor(false, false, true, false)  == false
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b) {
@@ -1137,8 +1137,8 @@ public final class Boolean {
    *<pre>{@code
    *nor(false, false) == true
    *nor(true, false)  == false
-   *nor(False, False, False, False) == True
-   *nor(False, False, True, False)  == False
+   *nor(false, false, false, false) == true
+   *nor(false, false, true, false)  == false
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b, boolean c) {
@@ -1157,8 +1157,8 @@ public final class Boolean {
    *<pre>{@code
    *nor(false, false) == true
    *nor(true, false)  == false
-   *nor(False, False, False, False) == True
-   *nor(False, False, True, False)  == False
+   *nor(false, false, false, false) == true
+   *nor(false, false, true, false)  == false
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d) {
@@ -1178,8 +1178,8 @@ public final class Boolean {
    *<pre>{@code
    *nor(false, false) == true
    *nor(true, false)  == false
-   *nor(False, False, False, False) == True
-   *nor(False, False, True, False)  == False
+   *nor(false, false, false, false) == true
+   *nor(false, false, true, false)  == false
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -1200,8 +1200,8 @@ public final class Boolean {
    *<pre>{@code
    *nor(false, false) == true
    *nor(true, false)  == false
-   *nor(False, False, False, False) == True
-   *nor(False, False, True, False)  == False
+   *nor(false, false, false, false) == true
+   *nor(false, false, true, false)  == false
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -1223,8 +1223,8 @@ public final class Boolean {
    *<pre>{@code
    *nor(false, false) == true
    *nor(true, false)  == false
-   *nor(False, False, False, False) == True
-   *nor(False, False, True, False)  == False
+   *nor(false, false, false, false) == true
+   *nor(false, false, true, false)  == false
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -1247,8 +1247,8 @@ public final class Boolean {
    *<pre>{@code
    *nor(false, false) == true
    *nor(true, false)  == false
-   *nor(False, False, False, False) == True
-   *nor(False, False, True, False)  == False
+   *nor(false, false, false, false) == true
+   *nor(false, false, true, false)  == false
    *}</pre>
    */
   public static boolean nor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -1266,8 +1266,8 @@ public final class Boolean {
    *<pre>{@code
    *xnor(true, true)   == true
    *xnor(false, true)  == false
-   *xnor(True, True, False, False) == True
-   *xnor(True, True, True, False)  == False
+   *xnor(true, true, false, false) == true
+   *xnor(true, true, true, false)  == false
    *}</pre>
    */
   public static boolean xnor() {
@@ -1283,8 +1283,8 @@ public final class Boolean {
    *<pre>{@code
    *xnor(true, true)   == true
    *xnor(false, true)  == false
-   *xnor(True, True, False, False) == True
-   *xnor(True, True, True, False)  == False
+   *xnor(true, true, false, false) == true
+   *xnor(true, true, true, false)  == false
    *}</pre>
    */
   public static boolean xnor(boolean a) {
@@ -1301,8 +1301,8 @@ public final class Boolean {
    *<pre>{@code
    *xnor(true, true)   == true
    *xnor(false, true)  == false
-   *xnor(True, True, False, False) == True
-   *xnor(True, True, True, False)  == False
+   *xnor(true, true, false, false) == true
+   *xnor(true, true, true, false)  == false
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b) {
@@ -1320,8 +1320,8 @@ public final class Boolean {
    *<pre>{@code
    *xnor(true, true)   == true
    *xnor(false, true)  == false
-   *xnor(True, True, False, False) == True
-   *xnor(True, True, True, False)  == False
+   *xnor(true, true, false, false) == true
+   *xnor(true, true, true, false)  == false
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b, boolean c) {
@@ -1340,8 +1340,8 @@ public final class Boolean {
    *<pre>{@code
    *xnor(true, true)   == true
    *xnor(false, true)  == false
-   *xnor(True, True, False, False) == True
-   *xnor(True, True, True, False)  == False
+   *xnor(true, true, false, false) == true
+   *xnor(true, true, true, false)  == false
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d) {
@@ -1361,8 +1361,8 @@ public final class Boolean {
    *<pre>{@code
    *xnor(true, true)   == true
    *xnor(false, true)  == false
-   *xnor(True, True, False, False) == True
-   *xnor(True, True, True, False)  == False
+   *xnor(true, true, false, false) == true
+   *xnor(true, true, true, false)  == false
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -1383,8 +1383,8 @@ public final class Boolean {
    *<pre>{@code
    *xnor(true, true)   == true
    *xnor(false, true)  == false
-   *xnor(True, True, False, False) == True
-   *xnor(True, True, True, False)  == False
+   *xnor(true, true, false, false) == true
+   *xnor(true, true, true, false)  == false
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -1406,8 +1406,8 @@ public final class Boolean {
    *<pre>{@code
    *xnor(true, true)   == true
    *xnor(false, true)  == false
-   *xnor(True, True, False, False) == True
-   *xnor(True, True, True, False)  == False
+   *xnor(true, true, false, false) == true
+   *xnor(true, true, true, false)  == false
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -1430,8 +1430,8 @@ public final class Boolean {
    *<pre>{@code
    *xnor(true, true)   == true
    *xnor(false, true)  == false
-   *xnor(True, True, False, False) == True
-   *xnor(True, True, True, False)  == False
+   *xnor(true, true, false, false) == true
+   *xnor(true, true, true, false)  == false
    *}</pre>
    */
   public static boolean xnor(boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
@@ -1448,10 +1448,10 @@ public final class Boolean {
    * @param i index
    * @return result
    *<pre>{@code
-   *select(0, True, False)              == True
-   *select(1, True, False)              == False
-   *select(1, True, True, False, False) == True
-   *select(2, True, True, False, False) == False
+   *select(0, true, false)              == true
+   *select(1, true, false)              == false
+   *select(1, true, true, false, false) == true
+   *select(2, true, true, false, false) == false
    *}</pre>
    */
   public static boolean select(int i) {
@@ -1466,10 +1466,10 @@ public final class Boolean {
    * @param a 1st boolean
    * @return result
    *<pre>{@code
-   *select(0, True, False)              == True
-   *select(1, True, False)              == False
-   *select(1, True, True, False, False) == True
-   *select(2, True, True, False, False) == False
+   *select(0, true, false)              == true
+   *select(1, true, false)              == false
+   *select(1, true, true, false, false) == true
+   *select(2, true, true, false, false) == false
    *}</pre>
    */
   public static boolean select(int i, boolean a) {
@@ -1488,10 +1488,10 @@ public final class Boolean {
    * @param b 2nd boolean
    * @return result
    *<pre>{@code
-   *select(0, True, False)              == True
-   *select(1, True, False)              == False
-   *select(1, True, True, False, False) == True
-   *select(2, True, True, False, False) == False
+   *select(0, true, false)              == true
+   *select(1, true, false)              == false
+   *select(1, true, true, false, false) == true
+   *select(2, true, true, false, false) == false
    *}</pre>
    */
   public static boolean select(int i, boolean a, boolean b) {
@@ -1512,10 +1512,10 @@ public final class Boolean {
    * @param c 3rd boolean
    * @return result
    *<pre>{@code
-   *select(0, True, False)              == True
-   *select(1, True, False)              == False
-   *select(1, True, True, False, False) == True
-   *select(2, True, True, False, False) == False
+   *select(0, true, false)              == true
+   *select(1, true, false)              == false
+   *select(1, true, true, false, false) == true
+   *select(2, true, true, false, false) == false
    *}</pre>
    */
   public static boolean select(int i, boolean a, boolean b, boolean c) {
@@ -1538,10 +1538,10 @@ public final class Boolean {
    * @param d 4th boolean
    * @return result
    *<pre>{@code
-   *select(0, True, False)              == True
-   *select(1, True, False)              == False
-   *select(1, True, True, False, False) == True
-   *select(2, True, True, False, False) == False
+   *select(0, true, false)              == true
+   *select(1, true, false)              == false
+   *select(1, true, true, false, false) == true
+   *select(2, true, true, false, false) == false
    *}</pre>
    */
   public static boolean select(int i, boolean a, boolean b, boolean c, boolean d) {
@@ -1566,10 +1566,10 @@ public final class Boolean {
    * @param e 5th boolean
    * @return result
    *<pre>{@code
-   *select(0, True, False)              == True
-   *select(1, True, False)              == False
-   *select(1, True, True, False, False) == True
-   *select(2, True, True, False, False) == False
+   *select(0, true, false)              == true
+   *select(1, true, false)              == false
+   *select(1, true, true, false, false) == true
+   *select(2, true, true, false, false) == false
    *}</pre>
    */
   public static boolean select(int i, boolean a, boolean b, boolean c, boolean d, boolean e) {
@@ -1596,10 +1596,10 @@ public final class Boolean {
    * @param f 6th boolean
    * @return result
    *<pre>{@code
-   *select(0, True, False)              == True
-   *select(1, True, False)              == False
-   *select(1, True, True, False, False) == True
-   *select(2, True, True, False, False) == False
+   *select(0, true, false)              == true
+   *select(1, true, false)              == false
+   *select(1, true, true, false, false) == true
+   *select(2, true, true, false, false) == false
    *}</pre>
    */
   public static boolean select(int i, boolean a, boolean b, boolean c, boolean d, boolean e, boolean f) {
@@ -1628,10 +1628,10 @@ public final class Boolean {
    * @param g 7th boolean
    * @return result
    *<pre>{@code
-   *select(0, True, False)              == True
-   *select(1, True, False)              == False
-   *select(1, True, True, False, False) == True
-   *select(2, True, True, False, False) == False
+   *select(0, true, false)              == true
+   *select(1, true, false)              == false
+   *select(1, true, true, false, false) == true
+   *select(2, true, true, false, false) == false
    *}</pre>
    */
   public static boolean select(int i, boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g) {
@@ -1662,10 +1662,10 @@ public final class Boolean {
    * @param h 8th boolean
    * @return result
    *<pre>{@code
-   *select(0, True, False)              == True
-   *select(1, True, False)              == False
-   *select(1, True, True, False, False) == True
-   *select(2, True, True, False, False) == False
+   *select(0, true, false)              == true
+   *select(1, true, false)              == false
+   *select(1, true, true, false, false) == true
+   *select(2, true, true, false, false) == false
    *}</pre>
    */
   public static boolean select(int i, boolean a, boolean b, boolean c, boolean d, boolean e, boolean f, boolean g, boolean h) {
