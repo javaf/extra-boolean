@@ -715,8 +715,8 @@ public final class Boolean {
    * <a href="https://github.com/javaf/extra-boolean/wiki/count">📘</a>
    * @return result
    *<pre>{@code
-   *count(true, true)   == 2
-   *count(true, false)  == 1
+   *count(true, true)                == 2
+   *count(true, false)               == 1
    *count(true, true, true, false)   == 3
    *count(false, true, false, false) == 1
    *}</pre>
@@ -732,8 +732,8 @@ public final class Boolean {
    * @param a 1st boolean
    * @return result
    *<pre>{@code
-   *count(true, true)   == 2
-   *count(true, false)  == 1
+   *count(true, true)                == 2
+   *count(true, false)               == 1
    *count(true, true, true, false)   == 3
    *count(false, true, false, false) == 1
    *}</pre>
@@ -750,8 +750,8 @@ public final class Boolean {
    * @param b 2nd boolean
    * @return result
    *<pre>{@code
-   *count(true, true)   == 2
-   *count(true, false)  == 1
+   *count(true, true)                == 2
+   *count(true, false)               == 1
    *count(true, true, true, false)   == 3
    *count(false, true, false, false) == 1
    *}</pre>
@@ -769,8 +769,8 @@ public final class Boolean {
    * @param c 3rd boolean
    * @return result
    *<pre>{@code
-   *count(true, true)   == 2
-   *count(true, false)  == 1
+   *count(true, true)                == 2
+   *count(true, false)               == 1
    *count(true, true, true, false)   == 3
    *count(false, true, false, false) == 1
    *}</pre>
@@ -789,8 +789,8 @@ public final class Boolean {
    * @param d 4th boolean
    * @return result
    *<pre>{@code
-   *count(true, true)   == 2
-   *count(true, false)  == 1
+   *count(true, true)                == 2
+   *count(true, false)               == 1
    *count(true, true, true, false)   == 3
    *count(false, true, false, false) == 1
    *}</pre>
@@ -810,8 +810,8 @@ public final class Boolean {
    * @param e 5th boolean
    * @return result
    *<pre>{@code
-   *count(true, true)   == 2
-   *count(true, false)  == 1
+   *count(true, true)                == 2
+   *count(true, false)               == 1
    *count(true, true, true, false)   == 3
    *count(false, true, false, false) == 1
    *}</pre>
@@ -832,8 +832,8 @@ public final class Boolean {
    * @param f 6th boolean
    * @return result
    *<pre>{@code
-   *count(true, true)   == 2
-   *count(true, false)  == 1
+   *count(true, true)                == 2
+   *count(true, false)               == 1
    *count(true, true, true, false)   == 3
    *count(false, true, false, false) == 1
    *}</pre>
@@ -855,8 +855,8 @@ public final class Boolean {
    * @param g 7th boolean
    * @return result
    *<pre>{@code
-   *count(true, true)   == 2
-   *count(true, false)  == 1
+   *count(true, true)                == 2
+   *count(true, false)               == 1
    *count(true, true, true, false)   == 3
    *count(false, true, false, false) == 1
    *}</pre>
@@ -879,8 +879,8 @@ public final class Boolean {
    * @param h 8th boolean
    * @return result
    *<pre>{@code
-   *count(true, true)   == 2
-   *count(true, false)  == 1
+   *count(true, true)                == 2
+   *count(true, false)               == 1
    *count(true, true, true, false)   == 3
    *count(false, true, false, false) == 1
    *}</pre>
@@ -898,8 +898,8 @@ public final class Boolean {
    * <a href="https://github.com/javaf/extra-boolean/wiki/nand">📘</a>
    * @return result
    *<pre>{@code
-   *nand(true, false)  == true
-   *nand(true, true)   == false
+   *nand(true, false)             == true
+   *nand(true, true)              == false
    *nand(true, true, false, true) == true
    *nand(true, true, true, true)  == false
    *}</pre>
@@ -915,8 +915,8 @@ public final class Boolean {
    * @param a 1st boolean
    * @return result
    *<pre>{@code
-   *nand(true, false)  == true
-   *nand(true, true)   == false
+   *nand(true, false)             == true
+   *nand(true, true)              == false
    *nand(true, true, false, true) == true
    *nand(true, true, true, true)  == false
    *}</pre>
@@ -933,8 +933,8 @@ public final class Boolean {
    * @param b 2nd boolean
    * @return result
    *<pre>{@code
-   *nand(true, false)  == true
-   *nand(true, true)   == false
+   *nand(true, false)             == true
+   *nand(true, true)              == false
    *nand(true, true, false, true) == true
    *nand(true, true, true, true)  == false
    *}</pre>
@@ -952,8 +952,8 @@ public final class Boolean {
    * @param c 3rd boolean
    * @return result
    *<pre>{@code
-   *nand(true, false)  == true
-   *nand(true, true)   == false
+   *nand(true, false)             == true
+   *nand(true, true)              == false
    *nand(true, true, false, true) == true
    *nand(true, true, true, true)  == false
    *}</pre>
@@ -972,8 +972,8 @@ public final class Boolean {
    * @param d 4th boolean
    * @return result
    *<pre>{@code
-   *nand(true, false)  == true
-   *nand(true, true)   == false
+   *nand(true, false)             == true
+   *nand(true, true)              == false
    *nand(true, true, false, true) == true
    *nand(true, true, true, true)  == false
    *}</pre>
@@ -993,8 +993,8 @@ public final class Boolean {
    * @param e 5th boolean
    * @return result
    *<pre>{@code
-   *nand(true, false)  == true
-   *nand(true, true)   == false
+   *nand(true, false)             == true
+   *nand(true, true)              == false
    *nand(true, true, false, true) == true
    *nand(true, true, true, true)  == false
    *}</pre>
@@ -1015,8 +1015,8 @@ public final class Boolean {
    * @param f 6th boolean
    * @return result
    *<pre>{@code
-   *nand(true, false)  == true
-   *nand(true, true)   == false
+   *nand(true, false)             == true
+   *nand(true, true)              == false
    *nand(true, true, false, true) == true
    *nand(true, true, true, true)  == false
    *}</pre>
@@ -1038,8 +1038,8 @@ public final class Boolean {
    * @param g 7th boolean
    * @return result
    *<pre>{@code
-   *nand(true, false)  == true
-   *nand(true, true)   == false
+   *nand(true, false)             == true
+   *nand(true, true)              == false
    *nand(true, true, false, true) == true
    *nand(true, true, true, true)  == false
    *}</pre>
@@ -1062,8 +1062,8 @@ public final class Boolean {
    * @param h 8th boolean
    * @return result
    *<pre>{@code
-   *nand(true, false)  == true
-   *nand(true, true)   == false
+   *nand(true, false)             == true
+   *nand(true, true)              == false
    *nand(true, true, false, true) == true
    *nand(true, true, true, true)  == false
    *}</pre>
@@ -1081,8 +1081,8 @@ public final class Boolean {
    * <a href="https://github.com/javaf/extra-boolean/wiki/nor">📘</a>
    * @return result
    *<pre>{@code
-   *nor(false, false) == true
-   *nor(true, false)  == false
+   *nor(false, false)               == true
+   *nor(true, false)                == false
    *nor(false, false, false, false) == true
    *nor(false, false, true, false)  == false
    *}</pre>
@@ -1098,8 +1098,8 @@ public final class Boolean {
    * @param a 1st boolean
    * @return result
    *<pre>{@code
-   *nor(false, false) == true
-   *nor(true, false)  == false
+   *nor(false, false)               == true
+   *nor(true, false)                == false
    *nor(false, false, false, false) == true
    *nor(false, false, true, false)  == false
    *}</pre>
@@ -1116,8 +1116,8 @@ public final class Boolean {
    * @param b 2nd boolean
    * @return result
    *<pre>{@code
-   *nor(false, false) == true
-   *nor(true, false)  == false
+   *nor(false, false)               == true
+   *nor(true, false)                == false
    *nor(false, false, false, false) == true
    *nor(false, false, true, false)  == false
    *}</pre>
@@ -1135,8 +1135,8 @@ public final class Boolean {
    * @param c 3rd boolean
    * @return result
    *<pre>{@code
-   *nor(false, false) == true
-   *nor(true, false)  == false
+   *nor(false, false)               == true
+   *nor(true, false)                == false
    *nor(false, false, false, false) == true
    *nor(false, false, true, false)  == false
    *}</pre>
@@ -1155,8 +1155,8 @@ public final class Boolean {
    * @param d 4th boolean
    * @return result
    *<pre>{@code
-   *nor(false, false) == true
-   *nor(true, false)  == false
+   *nor(false, false)               == true
+   *nor(true, false)                == false
    *nor(false, false, false, false) == true
    *nor(false, false, true, false)  == false
    *}</pre>
@@ -1176,8 +1176,8 @@ public final class Boolean {
    * @param e 5th boolean
    * @return result
    *<pre>{@code
-   *nor(false, false) == true
-   *nor(true, false)  == false
+   *nor(false, false)               == true
+   *nor(true, false)                == false
    *nor(false, false, false, false) == true
    *nor(false, false, true, false)  == false
    *}</pre>
@@ -1198,8 +1198,8 @@ public final class Boolean {
    * @param f 6th boolean
    * @return result
    *<pre>{@code
-   *nor(false, false) == true
-   *nor(true, false)  == false
+   *nor(false, false)               == true
+   *nor(true, false)                == false
    *nor(false, false, false, false) == true
    *nor(false, false, true, false)  == false
    *}</pre>
@@ -1221,8 +1221,8 @@ public final class Boolean {
    * @param g 7th boolean
    * @return result
    *<pre>{@code
-   *nor(false, false) == true
-   *nor(true, false)  == false
+   *nor(false, false)               == true
+   *nor(true, false)                == false
    *nor(false, false, false, false) == true
    *nor(false, false, true, false)  == false
    *}</pre>
@@ -1245,8 +1245,8 @@ public final class Boolean {
    * @param h 8th boolean
    * @return result
    *<pre>{@code
-   *nor(false, false) == true
-   *nor(true, false)  == false
+   *nor(false, false)               == true
+   *nor(true, false)                == false
    *nor(false, false, false, false) == true
    *nor(false, false, true, false)  == false
    *}</pre>
@@ -1264,8 +1264,8 @@ public final class Boolean {
    * <a href="https://github.com/javaf/extra-boolean/wiki/xnor">📘</a>
    * @return result
    *<pre>{@code
-   *xnor(true, true)   == true
-   *xnor(false, true)  == false
+   *xnor(true, true)               == true
+   *xnor(false, true)              == false
    *xnor(true, true, false, false) == true
    *xnor(true, true, true, false)  == false
    *}</pre>
@@ -1281,8 +1281,8 @@ public final class Boolean {
    * @param a 1st boolean
    * @return result
    *<pre>{@code
-   *xnor(true, true)   == true
-   *xnor(false, true)  == false
+   *xnor(true, true)               == true
+   *xnor(false, true)              == false
    *xnor(true, true, false, false) == true
    *xnor(true, true, true, false)  == false
    *}</pre>
@@ -1299,8 +1299,8 @@ public final class Boolean {
    * @param b 2nd boolean
    * @return result
    *<pre>{@code
-   *xnor(true, true)   == true
-   *xnor(false, true)  == false
+   *xnor(true, true)               == true
+   *xnor(false, true)              == false
    *xnor(true, true, false, false) == true
    *xnor(true, true, true, false)  == false
    *}</pre>
@@ -1318,8 +1318,8 @@ public final class Boolean {
    * @param c 3rd boolean
    * @return result
    *<pre>{@code
-   *xnor(true, true)   == true
-   *xnor(false, true)  == false
+   *xnor(true, true)               == true
+   *xnor(false, true)              == false
    *xnor(true, true, false, false) == true
    *xnor(true, true, true, false)  == false
    *}</pre>
@@ -1338,8 +1338,8 @@ public final class Boolean {
    * @param d 4th boolean
    * @return result
    *<pre>{@code
-   *xnor(true, true)   == true
-   *xnor(false, true)  == false
+   *xnor(true, true)               == true
+   *xnor(false, true)              == false
    *xnor(true, true, false, false) == true
    *xnor(true, true, true, false)  == false
    *}</pre>
@@ -1359,8 +1359,8 @@ public final class Boolean {
    * @param e 5th boolean
    * @return result
    *<pre>{@code
-   *xnor(true, true)   == true
-   *xnor(false, true)  == false
+   *xnor(true, true)               == true
+   *xnor(false, true)              == false
    *xnor(true, true, false, false) == true
    *xnor(true, true, true, false)  == false
    *}</pre>
@@ -1381,8 +1381,8 @@ public final class Boolean {
    * @param f 6th boolean
    * @return result
    *<pre>{@code
-   *xnor(true, true)   == true
-   *xnor(false, true)  == false
+   *xnor(true, true)               == true
+   *xnor(false, true)              == false
    *xnor(true, true, false, false) == true
    *xnor(true, true, true, false)  == false
    *}</pre>
@@ -1404,8 +1404,8 @@ public final class Boolean {
    * @param g 7th boolean
    * @return result
    *<pre>{@code
-   *xnor(true, true)   == true
-   *xnor(false, true)  == false
+   *xnor(true, true)               == true
+   *xnor(false, true)              == false
    *xnor(true, true, false, false) == true
    *xnor(true, true, true, false)  == false
    *}</pre>
@@ -1428,8 +1428,8 @@ public final class Boolean {
    * @param h 8th boolean
    * @return result
    *<pre>{@code
-   *xnor(true, true)   == true
-   *xnor(false, true)  == false
+   *xnor(true, true)               == true
+   *xnor(false, true)              == false
    *xnor(true, true, false, false) == true
    *xnor(true, true, true, false)  == false
    *}</pre>
