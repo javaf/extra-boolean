@@ -79,7 +79,25 @@ public final class Boolean {
    *}</pre>
    */
   public static boolean eq(boolean a, boolean b) {
-    return xnor(a, b);
+    return a == b;
+  }
+
+
+  /**
+   * Check if antecedent ⇎ consequent (a ⇎ b).
+   * <a href="https://github.com/javaf/extra-boolean/wiki/neq">📘</a>
+   * @param a antecedent
+   * @param b consequent
+   * @return result
+   *<pre>{@code
+   *neq(true, false)  == true
+   *neq(false, true)  == true
+   *neq(true, true)   == false
+   *neq(false, false) == false
+   *}</pre>
+   */
+  public static boolean neq(boolean a, boolean b) {
+    return !eq(a, b);
   }
 
 

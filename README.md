@@ -57,6 +57,7 @@ Boolean.count(true, false, true);
 | [nor]    | Check if all values are false.        |
 | [xnor]   | Check if even no. of values are true. |
 | [eq]     | Check if antecedent ⇔ consequent.     |
+| [neq]    | Check if antecedent ⇎ consequent.     |
 | [imply]  | Check if antecedent ⇒ consequent.     |
 | [nimply] | Check if antecedent ⇏ consequent.     |
 | [select] | Check if ith value is true.           |
@@ -71,6 +72,7 @@ Boolean.count(true, false, true);
 [nor]: https://github.com/javaf/extra-boolean/wiki/nor
 [xnor]: https://github.com/javaf/extra-boolean/wiki/xnor
 [eq]: https://github.com/javaf/extra-boolean/wiki/eq
+[neq]: https://github.com/javaf/extra-boolean/wiki/neq
 [imply]: https://github.com/javaf/extra-boolean/wiki/imply
 [nimply]: https://github.com/javaf/extra-boolean/wiki/nimply
 [select]: https://github.com/javaf/extra-boolean/wiki/select

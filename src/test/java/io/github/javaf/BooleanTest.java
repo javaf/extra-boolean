@@ -98,6 +98,24 @@ public class BooleanTest {
   }
 
 
+  public void testNeq() {
+    System.out.println("neq(a, b)");
+    boolean x;
+    // 2.2
+    x = Boolean.neq(true, false);
+    assertEquals(true, x);
+    // 2.1
+    x = Boolean.neq(false, true);
+    assertEquals(true, x);
+    // 2.3
+    x = Boolean.neq(true, true);
+    assertEquals(false, x);
+    // 2.0
+    x = Boolean.neq(false, false);
+    assertEquals(false, x);
+  }
+
+
   public void testImply() {
     System.out.println("imply(a, b)");
     boolean x;
