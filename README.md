@@ -16,9 +16,10 @@ can help you make custom gates, such as an *alternate* concept of **xnor**
 which returns `true` only if all inputs are the same (standard [xnor] returns
 `true` if even inputs are `true`). All of them can handle upto 8 inputs.
 
+[parse] is influenced by [boolean] package, and is quite good at translating
+`string` to `boolean`. It can also handle double negatives, eg. `not inactive`.
 You know the [and] of 2-inputs, but what of 1-input? What of 0? And what of
-the other gates? I answer them here. BTW, Mr. [parse] is quite good at
-translating `string` to `boolean`.
+the other gates? I answer them here.
 
 > Stability: Experimental.
 
@@ -76,6 +77,7 @@ Boolean.count(true, false, true);
 | [select] | Check if ith value is true.           |
 | [count]  | Count no. of true values.             |
 
+[boolean]: https://www.npmjs.com/package/boolean
 [parse]: https://github.com/javaf/extra-boolean/wiki/parse
 [not]: https://github.com/javaf/extra-boolean/wiki/not
 [and]: https://github.com/javaf/extra-boolean/wiki/and
