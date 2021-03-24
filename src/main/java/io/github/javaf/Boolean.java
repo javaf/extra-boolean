@@ -27,7 +27,7 @@ public final class Boolean {
 
   // PARSE
   /**
-   * Convert string to boolean.
+   * Converts string to boolean.
    * <a href="https://github.com/javaf/extra-boolean/wiki/parse">📘</a>
    * @param s a string
    * @return result
@@ -51,7 +51,7 @@ public final class Boolean {
 
   // NOT, EQ, IMPLY, NIMPLY (FIXED)
   /**
-   * Check if value is false.
+   * Checks if value is false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/not">📘</a>
    * @param a a boolean
    * @return result
@@ -66,7 +66,7 @@ public final class Boolean {
 
 
   /**
-   * Check if antecedent ⇔ consequent (a ⇔ b).
+   * Checks if antecedent ⇔ consequent (a ⇔ b).
    * <a href="https://github.com/javaf/extra-boolean/wiki/eq">📘</a>
    * @param a antecedent
    * @param b consequent
@@ -84,7 +84,7 @@ public final class Boolean {
 
 
   /**
-   * Check if antecedent ⇎ consequent (a ⇎ b).
+   * Checks if antecedent ⇎ consequent (a ⇎ b).
    * <a href="https://github.com/javaf/extra-boolean/wiki/neq">📘</a>
    * @param a antecedent
    * @param b consequent
@@ -102,7 +102,7 @@ public final class Boolean {
 
 
   /**
-   * Check if antecedent ⇒ consequent (a ⇒ b).
+   * Checks if antecedent ⇒ consequent (a ⇒ b).
    * <a href="https://github.com/javaf/extra-boolean/wiki/imply">📘</a>
    * @param a antecedent
    * @param b consequent
@@ -120,7 +120,7 @@ public final class Boolean {
 
 
   /**
-   * Check if antecedent ⇏ consequent (a ⇏ b).
+   * Checks if antecedent ⇏ consequent (a ⇏ b).
    * <a href="https://github.com/javaf/extra-boolean/wiki/nimply">📘</a>
    * @param a antecedent
    * @param b consequent
@@ -141,7 +141,7 @@ public final class Boolean {
 
   // EQV, IMP (SHORTCUTS)
   /**
-   * Check if antecedent ⇔ consequent (a ⇔ b).
+   * Checks if antecedent ⇔ consequent (a ⇔ b).
    * <a href="https://github.com/javaf/extra-boolean/wiki/eqv">📘</a>
    * @param a antecedent
    * @param b consequent
@@ -159,7 +159,7 @@ public final class Boolean {
 
 
   /**
-   * Check if antecedent ⇒ consequent (a ⇒ b).
+   * Checks if antecedent ⇒ consequent (a ⇒ b).
    * <a href="https://github.com/javaf/extra-boolean/wiki/imp">📘</a>
    * @param a antecedent
    * @param b consequent
@@ -180,7 +180,7 @@ public final class Boolean {
 
   // AND (VARIABLE)
   /**
-   * Check if all values are true.
+   * Checks if all values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/and">📘</a>
    * @return result
    *<pre>{@code
@@ -196,7 +196,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are true.
+   * Checks if all values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/and">📘</a>
    * @param a 1st boolean
    * @return result
@@ -213,7 +213,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are true.
+   * Checks if all values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/and">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -231,7 +231,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are true.
+   * Checks if all values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/and">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -250,7 +250,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are true.
+   * Checks if all values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/and">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -270,7 +270,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are true.
+   * Checks if all values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/and">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -291,7 +291,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are true.
+   * Checks if all values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/and">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -313,7 +313,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are true.
+   * Checks if all values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/and">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -336,7 +336,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are true.
+   * Checks if all values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/and">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -363,7 +363,7 @@ public final class Boolean {
 
   // OR (VARIABLE)
   /**
-   * Check if any value is true.
+   * Checks if any value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/or">📘</a>
    * @return result
    *<pre>{@code
@@ -379,7 +379,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is true.
+   * Checks if any value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/or">📘</a>
    * @param a 1st boolean
    * @return result
@@ -396,7 +396,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is true.
+   * Checks if any value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/or">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -414,7 +414,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is true.
+   * Checks if any value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/or">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -433,7 +433,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is true.
+   * Checks if any value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/or">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -453,7 +453,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is true.
+   * Checks if any value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/or">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -474,7 +474,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is true.
+   * Checks if any value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/or">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -496,7 +496,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is true.
+   * Checks if any value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/or">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -519,7 +519,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is true.
+   * Checks if any value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/or">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -546,7 +546,7 @@ public final class Boolean {
 
   // XOR (VARIABLE)
   /**
-   * Check if odd no. of values are true.
+   * Checks if odd no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xor">📘</a>
    * @return result
    *<pre>{@code
@@ -562,7 +562,7 @@ public final class Boolean {
 
 
   /**
-   * Check if odd no. of values are true.
+   * Checks if odd no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xor">📘</a>
    * @param a 1st boolean
    * @return result
@@ -579,7 +579,7 @@ public final class Boolean {
 
 
   /**
-   * Check if odd no. of values are true.
+   * Checks if odd no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -597,7 +597,7 @@ public final class Boolean {
 
 
   /**
-   * Check if odd no. of values are true.
+   * Checks if odd no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -616,7 +616,7 @@ public final class Boolean {
 
 
   /**
-   * Check if odd no. of values are true.
+   * Checks if odd no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -636,7 +636,7 @@ public final class Boolean {
 
 
   /**
-   * Check if odd no. of values are true.
+   * Checks if odd no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -657,7 +657,7 @@ public final class Boolean {
 
 
   /**
-   * Check if odd no. of values are true.
+   * Checks if odd no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -679,7 +679,7 @@ public final class Boolean {
 
 
   /**
-   * Check if odd no. of values are true.
+   * Checks if odd no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -702,7 +702,7 @@ public final class Boolean {
 
 
   /**
-   * Check if odd no. of values are true.
+   * Checks if odd no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -729,7 +729,7 @@ public final class Boolean {
 
   // COUNT (VARIABLE)
   /**
-   * Count no. of true values.
+   * Counts no. of true values.
    * <a href="https://github.com/javaf/extra-boolean/wiki/count">📘</a>
    * @return result
    *<pre>{@code
@@ -745,7 +745,7 @@ public final class Boolean {
 
 
   /**
-   * Count no. of true values.
+   * Counts no. of true values.
    * <a href="https://github.com/javaf/extra-boolean/wiki/count">📘</a>
    * @param a 1st boolean
    * @return result
@@ -762,7 +762,7 @@ public final class Boolean {
 
 
   /**
-   * Count no. of true values.
+   * Counts no. of true values.
    * <a href="https://github.com/javaf/extra-boolean/wiki/count">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -780,7 +780,7 @@ public final class Boolean {
 
 
   /**
-   * Count no. of true values.
+   * Counts no. of true values.
    * <a href="https://github.com/javaf/extra-boolean/wiki/count">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -799,7 +799,7 @@ public final class Boolean {
 
 
   /**
-   * Count no. of true values.
+   * Counts no. of true values.
    * <a href="https://github.com/javaf/extra-boolean/wiki/count">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -819,7 +819,7 @@ public final class Boolean {
 
 
   /**
-   * Count no. of true values.
+   * Counts no. of true values.
    * <a href="https://github.com/javaf/extra-boolean/wiki/count">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -840,7 +840,7 @@ public final class Boolean {
 
 
   /**
-   * Count no. of true values.
+   * Counts no. of true values.
    * <a href="https://github.com/javaf/extra-boolean/wiki/count">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -862,7 +862,7 @@ public final class Boolean {
 
 
   /**
-   * Count no. of true values.
+   * Counts no. of true values.
    * <a href="https://github.com/javaf/extra-boolean/wiki/count">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -885,7 +885,7 @@ public final class Boolean {
 
 
   /**
-   * Count no. of true values.
+   * Counts no. of true values.
    * <a href="https://github.com/javaf/extra-boolean/wiki/count">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -912,7 +912,7 @@ public final class Boolean {
 
   // NAND (VARIABLE)
   /**
-   * Check if any value is false.
+   * Checks if any value is false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nand">📘</a>
    * @return result
    *<pre>{@code
@@ -928,7 +928,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is false.
+   * Checks if any value is false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nand">📘</a>
    * @param a 1st boolean
    * @return result
@@ -945,7 +945,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is false.
+   * Checks if any value is false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nand">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -963,7 +963,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is false.
+   * Checks if any value is false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nand">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -982,7 +982,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is false.
+   * Checks if any value is false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nand">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1002,7 +1002,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is false.
+   * Checks if any value is false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nand">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1023,7 +1023,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is false.
+   * Checks if any value is false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nand">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1045,7 +1045,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is false.
+   * Checks if any value is false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nand">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1068,7 +1068,7 @@ public final class Boolean {
 
 
   /**
-   * Check if any value is false.
+   * Checks if any value is false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nand">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1095,7 +1095,7 @@ public final class Boolean {
 
   // NOR (VARIABLE)
   /**
-   * Check if all values are false.
+   * Checks if all values are false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nor">📘</a>
    * @return result
    *<pre>{@code
@@ -1111,7 +1111,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are false.
+   * Checks if all values are false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nor">📘</a>
    * @param a 1st boolean
    * @return result
@@ -1128,7 +1128,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are false.
+   * Checks if all values are false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1146,7 +1146,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are false.
+   * Checks if all values are false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1165,7 +1165,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are false.
+   * Checks if all values are false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1185,7 +1185,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are false.
+   * Checks if all values are false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1206,7 +1206,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are false.
+   * Checks if all values are false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1228,7 +1228,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are false.
+   * Checks if all values are false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1251,7 +1251,7 @@ public final class Boolean {
 
 
   /**
-   * Check if all values are false.
+   * Checks if all values are false.
    * <a href="https://github.com/javaf/extra-boolean/wiki/nor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1278,7 +1278,7 @@ public final class Boolean {
 
   // XNOR (VARIABLE)
   /**
-   * Check if even no. of values are true.
+   * Checks if even no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xnor">📘</a>
    * @return result
    *<pre>{@code
@@ -1294,7 +1294,7 @@ public final class Boolean {
 
 
   /**
-   * Check if even no. of values are true.
+   * Checks if even no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xnor">📘</a>
    * @param a 1st boolean
    * @return result
@@ -1311,7 +1311,7 @@ public final class Boolean {
 
 
   /**
-   * Check if even no. of values are true.
+   * Checks if even no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xnor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1329,7 +1329,7 @@ public final class Boolean {
 
 
   /**
-   * Check if even no. of values are true.
+   * Checks if even no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xnor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1348,7 +1348,7 @@ public final class Boolean {
 
 
   /**
-   * Check if even no. of values are true.
+   * Checks if even no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xnor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1368,7 +1368,7 @@ public final class Boolean {
 
 
   /**
-   * Check if even no. of values are true.
+   * Checks if even no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xnor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1389,7 +1389,7 @@ public final class Boolean {
 
 
   /**
-   * Check if even no. of values are true.
+   * Checks if even no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xnor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1411,7 +1411,7 @@ public final class Boolean {
 
 
   /**
-   * Check if even no. of values are true.
+   * Checks if even no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xnor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1434,7 +1434,7 @@ public final class Boolean {
 
 
   /**
-   * Check if even no. of values are true.
+   * Checks if even no. of values are true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/xnor">📘</a>
    * @param a 1st boolean
    * @param b 2nd boolean
@@ -1461,7 +1461,7 @@ public final class Boolean {
 
   // SELECT (VARIABLE)
   /**
-   * Check if ith value is true.
+   * Checks if ith value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
    * @param i index
    * @return result
@@ -1478,7 +1478,7 @@ public final class Boolean {
 
 
   /**
-   * Check if ith value is true.
+   * Checks if ith value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
    * @param i index
    * @param a 1st boolean
@@ -1499,7 +1499,7 @@ public final class Boolean {
 
 
   /**
-   * Check if ith value is true.
+   * Checks if ith value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
    * @param i index
    * @param a 1st boolean
@@ -1522,7 +1522,7 @@ public final class Boolean {
 
 
   /**
-   * Check if ith value is true.
+   * Checks if ith value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
    * @param i index
    * @param a 1st boolean
@@ -1547,7 +1547,7 @@ public final class Boolean {
 
 
   /**
-   * Check if ith value is true.
+   * Checks if ith value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
    * @param i index
    * @param a 1st boolean
@@ -1574,7 +1574,7 @@ public final class Boolean {
 
 
   /**
-   * Check if ith value is true.
+   * Checks if ith value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
    * @param i index
    * @param a 1st boolean
@@ -1603,7 +1603,7 @@ public final class Boolean {
 
 
   /**
-   * Check if ith value is true.
+   * Checks if ith value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
    * @param i index
    * @param a 1st boolean
@@ -1634,7 +1634,7 @@ public final class Boolean {
 
 
   /**
-   * Check if ith value is true.
+   * Checks if ith value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
    * @param i index
    * @param a 1st boolean
@@ -1667,7 +1667,7 @@ public final class Boolean {
 
 
   /**
-   * Check if ith value is true.
+   * Checks if ith value is true.
    * <a href="https://github.com/javaf/extra-boolean/wiki/select">📘</a>
    * @param i index
    * @param a 1st boolean
